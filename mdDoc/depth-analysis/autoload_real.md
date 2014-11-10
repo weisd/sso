@@ -1,0 +1,14 @@
+- 通过 `getLoader` 依次载入并处理了 /vendor/composer 目录下的5个索引文件：
+  - include_paths.php
+  - autoload_namespaces.php
+  - autoload_psr4.php
+  - autoload_classmap.php
+  - autoload_files.php
+    - laravel 的辅助函数库 `/vendor/laravel/framework/src/Illuminate/Support/helpers.php` 即是在这步载入的。
+- 分别对应着各资源包 composer.json 文件中定义的：
+  - [include-path](https://github.com/5-say/composer-doc-cn/blob/master/cn-introduction/04-schema.md#include-path)
+  - autoload
+      - [psr-0](https://github.com/5-say/composer-doc-cn/blob/master/cn-introduction/04-schema.md#psr-0)
+      - [psr-4](https://github.com/5-say/composer-doc-cn/blob/master/cn-introduction/04-schema.md#psr-4)
+      - [classmap](https://github.com/5-say/composer-doc-cn/blob/master/cn-introduction/04-schema.md#classmap)
+      - [files](https://github.com/5-say/composer-doc-cn/blob/master/cn-introduction/04-schema.md#files)
