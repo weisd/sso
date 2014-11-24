@@ -15,17 +15,25 @@
 |
  */
 
-Route::post('/comet/server', ['before' => 'kt_token', 'uses' => "CometController@servers"]);
-Route::get('/comet/server/test', ['before' => 'kt_token', 'uses' => "CometController@servers"]);
+Route::get('/register', "SSOController@register");
+Route::post('/register', ['before' => 'csrf', 'uses' => "SSOController@registerPost"]);
 
-Route::post('/message/push', ['before' => 'kt_token', 'uses' => 'MessageController@push']);
-Route::get('/message/push/test', ['before' => 'kt_token', 'uses' => 'MessageController@push']);
+// 登陆
+Route::get('/login', "SSOController@login");
+Route::post('/login', ['before' => 'csrf', 'uses' => "SSOController@loginPost"]);
 
-Route::get('/message/history', ['before' => 'kt_token', 'uses' => 'MessageController@history']);
+// 同步登陆接口
+Route::get('/sync', "SSOController@sync");
+Route::get('/dologin', "SSOController@doLogin");
+// 退出
+Route::get('/logout', "SSOController@logout");
 
-Route::get('/test', function () {
-	Queue::push('MessageWorker', ['name' => 'dada']);
-	return 'test';
+Route::get('/', function () {
+	return 'sso system';
+});
+
+App::missing(function ($exception) {
+	return 'page not found';
 });
 
 // // 博客

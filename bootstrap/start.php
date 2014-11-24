@@ -34,7 +34,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('10-6-25-71'),
+	'local' => array('weisd.local'),
 
 ));
 

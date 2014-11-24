@@ -1,0 +1,19 @@
+<?php echo $errors->first('error', '<strong>:message</strong>'); ?>
+<?php echo Form::open(); ?>
+<?php echo Form::label('username', '用户名'); ?>
+<?php echo Form::text('username'); ?>
+
+<?php echo Form::label('password', '密码'); ?>
+<?php echo Form::password('password'); ?>
+<?php echo Form::token(); ?>
+
+<?php echo Form::label('remember', '记住我'); ?>
+<?php echo Form::checkbox('remember', '1'); ?>
+
+<?php echo Form::hidden('appid', $clienInfo['id']); ?>
+
+<?php echo Form::submit('登陆'); ?>
+<?php echo Form::close(); ?>
+
+
+<?php echo HTML::link('/register?appid='.$clienInfo['id'], '注册'); ?>

@@ -7,6 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Activation' => $baseDir . '/app/models/Activation.php',
+    'ApiGuard' => $baseDir . '/app/ext/auth/ApiGuard.php',
+    'ApiHTTP' => $baseDir . '/app/helpers/ApiHTTP.php',
+    'ApiUserProvider' => $baseDir . '/app/ext/auth/ApiUserProvider.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'BlogController' => $baseDir . '/app/controllers/BlogController.php',
     'CometController' => $baseDir . '/app/controllers/CometController.php',
@@ -21,7 +24,9 @@ return array(
     'MessageController' => $baseDir . '/app/controllers/MessageController.php',
     'MessageWorker' => $baseDir . '/app/workers/Message.php',
     'PasswordReminder' => $baseDir . '/app/models/PasswordReminder.php',
+    'Rsso' => $baseDir . '/app/models/Rsso.php',
     'Ruser' => $baseDir . '/app/models/Ruser.php',
+    'SSOController' => $baseDir . '/app/controllers/SSOController.php',
     'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php',
     'SiteController' => $baseDir . '/app/controllers/SiteController.php',
     'Symfony\\Component\\HttpFoundation\\Resources\\stubs\\FakeFile' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/FakeFile.php',

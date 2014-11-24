@@ -7,7 +7,8 @@
 		"laravel/framework": "4.1.*",
 		"guzzlehttp/guzzle":"5.0.*",
 		"mews/purifier": "dev-master",
-		"pda/pheanstalk": "2.*"
+		"pda/pheanstalk": "2.*",
+		"rhumsaa/uuid": "2.8.*"
 	},
 	"require-dev": {
 		"barryvdh/laravel-debugbar": "1.*",
@@ -23,7 +24,10 @@
 			"app/tests/TestCase.php",
 			"app/helpers/Comm.php",
 			"app/helpers/Gopush.php",
-			"app/workers/Message.php"
+			"app/helpers/ApiHTTP.php",
+			"app/workers/Message.php",
+			"app/ext/auth/ApiUserProvider.php",
+			"app/ext/auth/ApiGuard.php"
 		]
 	},
 	"scripts": {

@@ -18,9 +18,10 @@ return array(
 	| Supported: "database", "eloquent"
 	| 支持: "database", "eloquent"
 	|
-	*/
+	 */
 
-	'driver' => 'eloquent',
+	// 'driver' => 'eloquent',
+	'driver' => 'api_user_auth',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -35,7 +36,7 @@ return array(
 	| is often just the "User" model but you may use whatever you like.
 	| 通常使用 "User" 模型，但你可以使用任何你喜欢的模型。
 	|
-	*/
+	 */
 
 	'model' => 'User',
 
@@ -52,7 +53,7 @@ return array(
 	| default value but you may easily change it to any table you like.
 	| 默认值，但你可以很容易的将它更改为任何你喜欢的表。
 	|
-	*/
+	 */
 
 	'table' => 'users',
 
@@ -76,7 +77,7 @@ return array(
 	| they have less time to be guessed. You may change this as needed.
 	| 因此他们将有更少的时间进行猜测。你可以根据需要进行修改。
 	|
-	*/
+	 */
 
 	'reminder' => array(
 

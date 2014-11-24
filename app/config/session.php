@@ -19,9 +19,9 @@ return array(
 	|            "memcached", "redis", "array"
 	| 支持: "file", "cookie", "database", "apc", "memcached", "redis", "array"
 	|
-	*/
+	 */
 
-	'driver' => 'file',
+	'driver' => 'redis',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -36,7 +36,7 @@ return array(
 	| to immediately expire on the browser closing, set that option.
 	| 在浏览器关闭时立即过期，请设置 'expire_on_close' 这个选项。
 	|
-	*/
+	 */
 
 	'lifetime' => 120,
 
@@ -55,9 +55,9 @@ return array(
 	| location may be specified. This is only needed for file sessions.
 	| 位置可以被指定。这仅仅是基于文件的 session 所需要的。
 	|
-	*/
+	 */
 
-	'files' => storage_path().'/sessions',
+	'files' => storage_path() . '/sessions',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -72,7 +72,7 @@ return array(
 	| correspond to a connection in your database configuration options.
 	| 对应于你 database 配置文件 connections 选项中的一个连接。
 	|
-	*/
+	 */
 
 	'connection' => null,
 
@@ -89,7 +89,7 @@ return array(
 	| provided for you; however, you are free to change this as needed.
 	| 已经提供给你；然而，你可以根据需要自由的改变这个值。
 	|
-	*/
+	 */
 
 	'table' => 'sessions',
 
@@ -106,7 +106,7 @@ return array(
 	| happen on a given request. By default, the odds are 2 out of 100.
 	| 发生在一个给定的请求中。默认情况下，几率是2%。
 	|
-	*/
+	 */
 
 	'lottery' => array(2, 100),
 
@@ -123,7 +123,7 @@ return array(
 	| new session cookie is created by the framework for every driver.
 	| 由框架任意驱动创建的，一个新 session 的 cookie。
 	|
-	*/
+	 */
 
 	'cookie' => 'laravel_session',
 
@@ -140,7 +140,7 @@ return array(
 	| your application but you are free to change this when necessary.
 	| 但在必要时你可以自由的改变这个值。
 	|
-	*/
+	 */
 
 	'path' => '/',
 
@@ -157,9 +157,9 @@ return array(
 	| available to in your application. A sensible default has been set.
 	| 在您的应用程序中是可用的。这里已经为您设定了一个明智的默认值。
 	|
-	*/
+	 */
 
-	'domain' => null,
+	'domain' => 'sso.test.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -174,7 +174,7 @@ return array(
 	| the cookie from being sent to you if it can not be done securely.
 	| 该 cookie 仅被发送给你，如果它不能安全的完成。
 	|
-	*/
+	 */
 
 	'secure' => false,
 

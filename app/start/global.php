@@ -24,6 +24,13 @@ ClassLoader::addDirectories(array(
 
 ));
 
+Auth::extend('api_user_auth', function () {
+	return new Illuminate\Auth\Guard(
+		new ApiUserProvider(),
+		\App::make('session.store')
+	);
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Error Logger

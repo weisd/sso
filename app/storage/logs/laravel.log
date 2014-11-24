@@ -1,0 +1,1226 @@
+
+[2014-11-12 17:52:56] local.INFO: get params : {"appid":"2","ptoken":"98205892d444db7492ba75cb584ebfcf"} [] []
+[2014-11-12 17:52:56] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 17:52:56] local.INFO: ptlogin{"1":{"ptlogout":"8af1e51bef21900843dd2deb7f8c4bbc","sid":"6164a891cce1af696f33b9141d80f86f654eee55"},"2":{"ptlogout":"57e6622c9fd550f797bebe295e2cd1c5","sid":"5cb3d65fbdaad4f07bdd41135e1eba48e1746f5f"}} [] []
+[2014-11-12 17:52:56] local.INFO: out url : 1 : http://a.test.com/sso/logout?tikect=8af1e51bef21900843dd2deb7f8c4bbc&sid=6164a891cce1af696f33b9141d80f86f654eee55 [] []
+[2014-11-12 17:52:56] local.INFO: logout 1: {"code":403,"msg":"auth failed"} [] []
+[2014-11-12 17:52:56] local.INFO: 自己退出 ！！ [] []
+[2014-11-12 17:52:57] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 17:54:34] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 17:54:44] local.INFO: send session id : 9a694c2d5588f6ea9e04dbf97a277896475b4146 [] []
+[2014-11-12 17:54:44] local.INFO: tikect info : {"sid":"9a694c2d5588f6ea9e04dbf97a277896475b4146","appid":2} [] []
+[2014-11-12 17:54:44] local.INFO: sync get session id : 9a694c2d5588f6ea9e04dbf97a277896475b4146 [] []
+[2014-11-12 17:54:44] local.INFO: ---- ---[] [] []
+[2014-11-12 17:54:44] local.INFO: ---- ---{"2":{"ptlogout":"cfa4b1df7198f334c0794ed281a48e8c","sid":"b5df05b3a70bea82fcc61e395d9c00eac1f1d8da"}} [] []
+[2014-11-12 17:54:44] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"ba56890384dd1057a49f11e40622d03b","ptlogout":"cfa4b1df7198f334c0794ed281a48e8c"} [] []
+[2014-11-12 17:54:51] local.INFO: get params : {"appid":"1","ptoken":"1bfa3a55a3ce00d61584833d5969195e"} [] []
+[2014-11-12 17:54:51] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 17:54:51] local.INFO: ptlogin{"2":{"ptlogout":"cfa4b1df7198f334c0794ed281a48e8c","sid":"b5df05b3a70bea82fcc61e395d9c00eac1f1d8da"}} [] []
+[2014-11-12 17:54:51] local.INFO: out url : 2 : http://b.test.com/sso/logout?tikect=cfa4b1df7198f334c0794ed281a48e8c&sid=b5df05b3a70bea82fcc61e395d9c00eac1f1d8da [] []
+[2014-11-12 17:54:52] local.INFO: logout 2: {"code":403,"msg":"auth failed"} [] []
+[2014-11-12 17:54:52] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 17:55:07] local.INFO: get params : {"appid":"2","ptoken":"ba56890384dd1057a49f11e40622d03b"} [] []
+[2014-11-12 17:55:07] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 17:55:07] local.INFO: ptlogin[] [] []
+[2014-11-12 17:55:07] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 17:55:17] local.INFO: send session id : a258a105359d1969fdf423830a71815212c18d23 [] []
+[2014-11-12 17:55:17] local.INFO: tikect info : {"sid":"a258a105359d1969fdf423830a71815212c18d23","appid":2} [] []
+[2014-11-12 17:55:17] local.INFO: sync get session id : a258a105359d1969fdf423830a71815212c18d23 [] []
+[2014-11-12 17:55:17] local.INFO: ---- ---[] [] []
+[2014-11-12 17:55:17] local.INFO: ---- ---{"2":{"ptlogout":"a03968114f18b89b33a9794df69a95eb","sid":"9b310124d609f5184fbfdbf6a125b60df934fa33"}} [] []
+[2014-11-12 17:55:17] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"52a889a6de93ad576a0a788ec9c332c5","ptlogout":"a03968114f18b89b33a9794df69a95eb"} [] []
+[2014-11-12 17:55:29] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 17:55:29] local.INFO: 已登陆: 1 [] []
+[2014-11-12 17:55:29] local.INFO: tikect info : {"sid":"a258a105359d1969fdf423830a71815212c18d23","appid":1} [] []
+[2014-11-12 17:55:29] local.INFO: sync get session id : a258a105359d1969fdf423830a71815212c18d23 [] []
+[2014-11-12 17:55:29] local.INFO: ---- ---{"2":{"ptlogout":"a03968114f18b89b33a9794df69a95eb","sid":"9b310124d609f5184fbfdbf6a125b60df934fa33"}} [] []
+[2014-11-12 17:55:29] local.INFO: ---- ---{"2":{"ptlogout":"a03968114f18b89b33a9794df69a95eb","sid":"9b310124d609f5184fbfdbf6a125b60df934fa33"},"1":{"ptlogout":"7058939f8c77abc93e3545546d1eba5c","sid":"c5ee4efcf9f6127e2e1d7af2f136f8d6370d0ae2"}} [] []
+[2014-11-12 17:55:29] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"eb76113fd004101205cb1c97ad39cc7e","ptlogout":"7058939f8c77abc93e3545546d1eba5c"} [] []
+[2014-11-12 17:55:34] local.INFO: get params : {"appid":"1","ptoken":"eb76113fd004101205cb1c97ad39cc7e"} [] []
+[2014-11-12 17:55:34] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 17:55:34] local.INFO: ptlogin{"2":{"ptlogout":"a03968114f18b89b33a9794df69a95eb","sid":"9b310124d609f5184fbfdbf6a125b60df934fa33"},"1":{"ptlogout":"7058939f8c77abc93e3545546d1eba5c","sid":"c5ee4efcf9f6127e2e1d7af2f136f8d6370d0ae2"}} [] []
+[2014-11-12 17:55:34] local.INFO: out url : 2 : http://b.test.com/sso/logout?tikect=a03968114f18b89b33a9794df69a95eb&sid=9b310124d609f5184fbfdbf6a125b60df934fa33 [] []
+[2014-11-12 17:55:34] local.INFO: logout 2: {"code":403,"msg":"auth failed"} [] []
+[2014-11-12 17:55:34] local.INFO: 自己退出 ！！ [] []
+[2014-11-12 17:57:46] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 17:57:49] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 17:57:58] local.INFO: send session id : 7a31e2f5f2b858fb241be3ba0cab7ef74aa93f8c [] []
+[2014-11-12 17:57:58] local.INFO: tikect info : {"sid":"7a31e2f5f2b858fb241be3ba0cab7ef74aa93f8c","appid":2} [] []
+[2014-11-12 17:57:58] local.INFO: sync get session id : 7a31e2f5f2b858fb241be3ba0cab7ef74aa93f8c [] []
+[2014-11-12 17:57:58] local.INFO: ---- ---[] [] []
+[2014-11-12 17:57:58] local.INFO: ---- ---{"2":{"ptlogout":"0f9eff0bac18a4a58a36ae9a5823fa3e","sid":"9b310124d609f5184fbfdbf6a125b60df934fa33"}} [] []
+[2014-11-12 17:57:58] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"eb4af9330daf9d1d2ebdaec33e31980a","ptlogout":"0f9eff0bac18a4a58a36ae9a5823fa3e"} [] []
+[2014-11-12 17:58:05] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 17:58:05] local.INFO: 已登陆: 1 [] []
+[2014-11-12 17:58:06] local.INFO: tikect info : {"sid":"7a31e2f5f2b858fb241be3ba0cab7ef74aa93f8c","appid":1} [] []
+[2014-11-12 17:58:06] local.INFO: sync get session id : 7a31e2f5f2b858fb241be3ba0cab7ef74aa93f8c [] []
+[2014-11-12 17:58:06] local.INFO: ---- ---{"2":{"ptlogout":"0f9eff0bac18a4a58a36ae9a5823fa3e","sid":"9b310124d609f5184fbfdbf6a125b60df934fa33"}} [] []
+[2014-11-12 17:58:06] local.INFO: ---- ---{"2":{"ptlogout":"0f9eff0bac18a4a58a36ae9a5823fa3e","sid":"9b310124d609f5184fbfdbf6a125b60df934fa33"},"1":{"ptlogout":"ceecb54177218c469134745e4a74d8b4","sid":"e0d3c24c981f28772521f604af66a63fe2161f28"}} [] []
+[2014-11-12 17:58:06] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"c3e28c8b564c9c5e3069439b39d67787","ptlogout":"ceecb54177218c469134745e4a74d8b4"} [] []
+[2014-11-12 17:58:29] local.INFO: get params : {"appid":"1","ptoken":"c3e28c8b564c9c5e3069439b39d67787"} [] []
+[2014-11-12 17:58:29] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 17:58:29] local.INFO: ptlogin{"2":{"ptlogout":"0f9eff0bac18a4a58a36ae9a5823fa3e","sid":"9b310124d609f5184fbfdbf6a125b60df934fa33"},"1":{"ptlogout":"ceecb54177218c469134745e4a74d8b4","sid":"e0d3c24c981f28772521f604af66a63fe2161f28"}} [] []
+[2014-11-12 17:58:29] local.INFO: out url : 2 : http://b.test.com/sso/logout?tikect=0f9eff0bac18a4a58a36ae9a5823fa3e&sid=9b310124d609f5184fbfdbf6a125b60df934fa33 [] []
+[2014-11-12 17:58:30] local.INFO: logout 2: {"code":403,"msg":"auth failed"} [] []
+[2014-11-12 17:58:30] local.INFO: 自己退出 ！！ [] []
+[2014-11-12 17:58:30] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:27] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:30] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:39] local.INFO: send session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:39] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:39] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:39] local.INFO: ---- ---[] [] []
+[2014-11-12 18:00:39] local.INFO: ---- ---{"2":{"ptlogout":"4b070634c9fa1bc31ef506bbd38c6764","sid":"715180d072c8de3f77b2e2564be9febbbb95780e"}} [] []
+[2014-11-12 18:00:39] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"ec154390beeca3a3c68a1182f6366174","ptlogout":"4b070634c9fa1bc31ef506bbd38c6764"} [] []
+[2014-11-12 18:00:40] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:40] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:40] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:40] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:40] local.INFO: ---- ---{"2":{"ptlogout":"4b070634c9fa1bc31ef506bbd38c6764","sid":"715180d072c8de3f77b2e2564be9febbbb95780e"}} [] []
+[2014-11-12 18:00:40] local.INFO: ---- ---{"2":{"ptlogout":"cbce5cdc399be6f074689b2b027a2b0e","sid":"953c046141806bad1d7b0e3f826b702484e3bcc0"}} [] []
+[2014-11-12 18:00:40] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"1f5b81665120a7422959d91693c5d809","ptlogout":"cbce5cdc399be6f074689b2b027a2b0e"} [] []
+[2014-11-12 18:00:40] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:40] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:41] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:41] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:41] local.INFO: ---- ---{"2":{"ptlogout":"cbce5cdc399be6f074689b2b027a2b0e","sid":"953c046141806bad1d7b0e3f826b702484e3bcc0"}} [] []
+[2014-11-12 18:00:41] local.INFO: ---- ---{"2":{"ptlogout":"719de02172a79f8e28e79728e56b24ed","sid":"0215c5ab9bb66a27518566df2f7098ba18f2159b"}} [] []
+[2014-11-12 18:00:41] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"69428645c8429ec27ed0befd5e4d4467","ptlogout":"719de02172a79f8e28e79728e56b24ed"} [] []
+[2014-11-12 18:00:41] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:41] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:41] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:41] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:41] local.INFO: ---- ---{"2":{"ptlogout":"719de02172a79f8e28e79728e56b24ed","sid":"0215c5ab9bb66a27518566df2f7098ba18f2159b"}} [] []
+[2014-11-12 18:00:41] local.INFO: ---- ---{"2":{"ptlogout":"38aa89b3f98bb5a388ff55c6025f5463","sid":"5884f52100659fcfa6d651fbb0e45ec1dc684871"}} [] []
+[2014-11-12 18:00:41] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"3b6e28ce89f5f578f1659d85fa34d3a9","ptlogout":"38aa89b3f98bb5a388ff55c6025f5463"} [] []
+[2014-11-12 18:00:42] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:42] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:42] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:42] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:42] local.INFO: ---- ---{"2":{"ptlogout":"38aa89b3f98bb5a388ff55c6025f5463","sid":"5884f52100659fcfa6d651fbb0e45ec1dc684871"}} [] []
+[2014-11-12 18:00:42] local.INFO: ---- ---{"2":{"ptlogout":"b745c133c8ece96926daa9180a4a736a","sid":"55b72033a6dae53cda9735b2e0d6a845b5079e26"}} [] []
+[2014-11-12 18:00:42] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"edb6bc88818445e591b1b79d40ac0c5d","ptlogout":"b745c133c8ece96926daa9180a4a736a"} [] []
+[2014-11-12 18:00:43] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:43] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:43] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:43] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:43] local.INFO: ---- ---{"2":{"ptlogout":"b745c133c8ece96926daa9180a4a736a","sid":"55b72033a6dae53cda9735b2e0d6a845b5079e26"}} [] []
+[2014-11-12 18:00:43] local.INFO: ---- ---{"2":{"ptlogout":"2891e6d1ee409ccf22c67f5b6267387f","sid":"14bfdd8f018a10b7c5fb568fe4ac4810fea62d0e"}} [] []
+[2014-11-12 18:00:43] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"4d71ada7ab84df699a6838d4396e9aa6","ptlogout":"2891e6d1ee409ccf22c67f5b6267387f"} [] []
+[2014-11-12 18:00:43] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:43] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:44] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:44] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:44] local.INFO: ---- ---{"2":{"ptlogout":"2891e6d1ee409ccf22c67f5b6267387f","sid":"14bfdd8f018a10b7c5fb568fe4ac4810fea62d0e"}} [] []
+[2014-11-12 18:00:44] local.INFO: ---- ---{"2":{"ptlogout":"9be8a780346a818be4534781e27d184d","sid":"8e16cec55e33146db3f56b9d89fbb1b990bae287"}} [] []
+[2014-11-12 18:00:44] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"654c3901e86780987992e26090dba5b5","ptlogout":"9be8a780346a818be4534781e27d184d"} [] []
+[2014-11-12 18:00:44] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:44] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:45] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:45] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:45] local.INFO: ---- ---{"2":{"ptlogout":"9be8a780346a818be4534781e27d184d","sid":"8e16cec55e33146db3f56b9d89fbb1b990bae287"}} [] []
+[2014-11-12 18:00:45] local.INFO: ---- ---{"2":{"ptlogout":"fc1b17c0e653e9af2daa28b57bfd288f","sid":"d019b9bd1253d0d0fa28d65ece526e018dfe3541"}} [] []
+[2014-11-12 18:00:45] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"3e8106129346af561f29b077dd987c6a","ptlogout":"fc1b17c0e653e9af2daa28b57bfd288f"} [] []
+[2014-11-12 18:00:45] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:45] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:45] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:45] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:45] local.INFO: ---- ---{"2":{"ptlogout":"fc1b17c0e653e9af2daa28b57bfd288f","sid":"d019b9bd1253d0d0fa28d65ece526e018dfe3541"}} [] []
+[2014-11-12 18:00:45] local.INFO: ---- ---{"2":{"ptlogout":"07029a188b90d919d9e07768dbc9ec4e","sid":"fd124782876a0bb1c53bb2d176f2856f5ae73e1a"}} [] []
+[2014-11-12 18:00:45] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"8e28dad45d9a25be4295cb3f377e4fdd","ptlogout":"07029a188b90d919d9e07768dbc9ec4e"} [] []
+[2014-11-12 18:00:46] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:46] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:46] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:46] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:46] local.INFO: ---- ---{"2":{"ptlogout":"07029a188b90d919d9e07768dbc9ec4e","sid":"fd124782876a0bb1c53bb2d176f2856f5ae73e1a"}} [] []
+[2014-11-12 18:00:46] local.INFO: ---- ---{"2":{"ptlogout":"97a26ea07a15100141af510730ceab68","sid":"12acd2305e22bc4b3c07fc025f99de59e0e15616"}} [] []
+[2014-11-12 18:00:46] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"f822e57c4d032119f8e86ce8c9bdb00a","ptlogout":"97a26ea07a15100141af510730ceab68"} [] []
+[2014-11-12 18:00:47] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:47] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:47] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:47] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:47] local.INFO: ---- ---{"2":{"ptlogout":"97a26ea07a15100141af510730ceab68","sid":"12acd2305e22bc4b3c07fc025f99de59e0e15616"}} [] []
+[2014-11-12 18:00:47] local.INFO: ---- ---{"2":{"ptlogout":"4e6bb674cde2cf18da6458f69da70906","sid":"760969305de2bb4783a51a97d19045956776babb"}} [] []
+[2014-11-12 18:00:47] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"d32a50c3af91b61246538b7245173c67","ptlogout":"4e6bb674cde2cf18da6458f69da70906"} [] []
+[2014-11-12 18:00:52] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:52] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:53] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:53] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:53] local.INFO: ---- ---{"2":{"ptlogout":"4e6bb674cde2cf18da6458f69da70906","sid":"760969305de2bb4783a51a97d19045956776babb"}} [] []
+[2014-11-12 18:00:53] local.INFO: ---- ---{"2":{"ptlogout":"2989753c36b298bb59e7a8a165782457","sid":"575187b5e3ca21a1cecba0d08188419faa77cbee"}} [] []
+[2014-11-12 18:00:53] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"b2d6c6f635e59d3cf9133804dcd8bd47","ptlogout":"2989753c36b298bb59e7a8a165782457"} [] []
+[2014-11-12 18:00:53] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:53] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:53] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:53] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:53] local.INFO: ---- ---{"2":{"ptlogout":"2989753c36b298bb59e7a8a165782457","sid":"575187b5e3ca21a1cecba0d08188419faa77cbee"}} [] []
+[2014-11-12 18:00:53] local.INFO: ---- ---{"2":{"ptlogout":"03c3d87db8edb5af63f53edfdafba631","sid":"0a6f4bc5194465d50d0275b37717f6e3098094fb"}} [] []
+[2014-11-12 18:00:53] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"cc1cba936129f14c2b38f89bf249607d","ptlogout":"03c3d87db8edb5af63f53edfdafba631"} [] []
+[2014-11-12 18:00:54] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:54] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:54] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:54] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:54] local.INFO: ---- ---{"2":{"ptlogout":"03c3d87db8edb5af63f53edfdafba631","sid":"0a6f4bc5194465d50d0275b37717f6e3098094fb"}} [] []
+[2014-11-12 18:00:54] local.INFO: ---- ---{"2":{"ptlogout":"149922bab9718d1428a788813169b7d2","sid":"bbfa7e19b9d8fc9a348184aa41d1443e9ec616df"}} [] []
+[2014-11-12 18:00:54] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"cc648351f68a9c8703bf67875d190d06","ptlogout":"149922bab9718d1428a788813169b7d2"} [] []
+[2014-11-12 18:00:55] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:55] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:55] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:55] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:55] local.INFO: ---- ---{"2":{"ptlogout":"149922bab9718d1428a788813169b7d2","sid":"bbfa7e19b9d8fc9a348184aa41d1443e9ec616df"}} [] []
+[2014-11-12 18:00:55] local.INFO: ---- ---{"2":{"ptlogout":"ec98ad35b291feb4c08c9fb905466ab4","sid":"ae11773210840db07c67e7b1c8de9210f690afa6"}} [] []
+[2014-11-12 18:00:55] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"021fcc84f8000c04bb1ce54dcab2bb3b","ptlogout":"ec98ad35b291feb4c08c9fb905466ab4"} [] []
+[2014-11-12 18:00:55] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:00:55] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:00:56] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:00:56] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:00:56] local.INFO: ---- ---{"2":{"ptlogout":"ec98ad35b291feb4c08c9fb905466ab4","sid":"ae11773210840db07c67e7b1c8de9210f690afa6"}} [] []
+[2014-11-12 18:00:56] local.INFO: ---- ---{"2":{"ptlogout":"53290cff017598744def496524ba7890","sid":"120fd9bc96666c95394156362904e1e65d88d875"}} [] []
+[2014-11-12 18:00:56] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"a227693fe146bf2ee0fb64aea0f6e210","ptlogout":"53290cff017598744def496524ba7890"} [] []
+[2014-11-12 18:01:26] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:01:26] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:01:26] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:01:26] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:01:26] local.INFO: ---- ---{"2":{"ptlogout":"53290cff017598744def496524ba7890","sid":"120fd9bc96666c95394156362904e1e65d88d875"}} [] []
+[2014-11-12 18:01:26] local.INFO: ---- ---{"2":{"ptlogout":"ce330729a54fe98a0fa04099d25c351a","sid":"4ccfc151923a61e90382302eef5d87d6ab677eb6"}} [] []
+[2014-11-12 18:01:26] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"89835aa8c1730fa4a6afb235df949b95","ptlogout":"ce330729a54fe98a0fa04099d25c351a"} [] []
+[2014-11-12 18:01:27] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:01:27] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:01:27] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:01:27] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:01:27] local.INFO: ---- ---{"2":{"ptlogout":"ce330729a54fe98a0fa04099d25c351a","sid":"4ccfc151923a61e90382302eef5d87d6ab677eb6"}} [] []
+[2014-11-12 18:01:27] local.INFO: ---- ---{"2":{"ptlogout":"770bc85701a2265391ced3b21f2371a4","sid":"f1eefef72675cde7ff29b6be6677c02086a66c78"}} [] []
+[2014-11-12 18:01:27] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"ee36f44d01ecf37c703cdb52d533cbd8","ptlogout":"770bc85701a2265391ced3b21f2371a4"} [] []
+[2014-11-12 18:01:27] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:01:27] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:01:28] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:01:28] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:01:28] local.INFO: ---- ---{"2":{"ptlogout":"770bc85701a2265391ced3b21f2371a4","sid":"f1eefef72675cde7ff29b6be6677c02086a66c78"}} [] []
+[2014-11-12 18:01:28] local.INFO: ---- ---{"2":{"ptlogout":"8a004724141b4f89e31fe753b68bb4c6","sid":"e78d9e8a43ad0e65bc74ce6f4e73d4ce5501f629"}} [] []
+[2014-11-12 18:01:28] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"cd45289423c3740135bf284c955ff81f","ptlogout":"8a004724141b4f89e31fe753b68bb4c6"} [] []
+[2014-11-12 18:01:28] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:01:28] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:01:28] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:01:28] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:01:28] local.INFO: ---- ---{"2":{"ptlogout":"8a004724141b4f89e31fe753b68bb4c6","sid":"e78d9e8a43ad0e65bc74ce6f4e73d4ce5501f629"}} [] []
+[2014-11-12 18:01:28] local.INFO: ---- ---{"2":{"ptlogout":"a66504667c916b2fd4646a520887da36","sid":"2b604c9d3749e8269ab4eabcaf44f8b934988e5f"}} [] []
+[2014-11-12 18:01:28] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"12bdf07571dda9b3aff1ed46da322dac","ptlogout":"a66504667c916b2fd4646a520887da36"} [] []
+[2014-11-12 18:01:29] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:01:29] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:01:29] local.INFO: tikect info : {"sid":"b4042886538333a9fdddae58fc437e04dd75d8c3","appid":2} [] []
+[2014-11-12 18:01:29] local.INFO: sync get session id : b4042886538333a9fdddae58fc437e04dd75d8c3 [] []
+[2014-11-12 18:01:29] local.INFO: ---- ---{"2":{"ptlogout":"a66504667c916b2fd4646a520887da36","sid":"2b604c9d3749e8269ab4eabcaf44f8b934988e5f"}} [] []
+[2014-11-12 18:01:29] local.INFO: ---- ---{"2":{"ptlogout":"fda8ddbf6040418a90a323df075e669e","sid":"70e47d56755d628d837ef919719b74e340baa42f"}} [] []
+[2014-11-12 18:01:29] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"19b6df94f167bab3f6750c3830792ec8","ptlogout":"fda8ddbf6040418a90a323df075e669e"} [] []
+[2014-11-12 18:01:50] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:01:55] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:02:14] local.INFO: send session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:02:14] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:02:14] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:02:14] local.INFO: ---- ---[] [] []
+[2014-11-12 18:02:14] local.INFO: ---- ---{"2":{"ptlogout":"822cf16421cf81b2a8835e2708e7fc04","sid":"cccdc83757a5e8c8e0f16ff68da43040a65fa2a7"}} [] []
+[2014-11-12 18:02:14] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"683b8d1351980481711b3aa167d87cfd","ptlogout":"822cf16421cf81b2a8835e2708e7fc04"} [] []
+[2014-11-12 18:02:14] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:02:14] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:02:14] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:02:14] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:02:14] local.INFO: ---- ---{"2":{"ptlogout":"822cf16421cf81b2a8835e2708e7fc04","sid":"cccdc83757a5e8c8e0f16ff68da43040a65fa2a7"}} [] []
+[2014-11-12 18:02:14] local.INFO: ---- ---{"2":{"ptlogout":"8e246f32dc83bbdfd1b22a63b5e61d52","sid":"ddd189f8953baeda443b6731faae352cd279a194"}} [] []
+[2014-11-12 18:02:14] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"f0bcf580c26d940db2bd8efafede9190","ptlogout":"8e246f32dc83bbdfd1b22a63b5e61d52"} [] []
+[2014-11-12 18:02:15] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:02:15] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:02:15] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:02:15] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:02:15] local.INFO: ---- ---{"2":{"ptlogout":"8e246f32dc83bbdfd1b22a63b5e61d52","sid":"ddd189f8953baeda443b6731faae352cd279a194"}} [] []
+[2014-11-12 18:02:15] local.INFO: ---- ---{"2":{"ptlogout":"59197d22ae8e57d0ac58aff08f7333e7","sid":"23a8129db5a2632640f67026c596c263056abbee"}} [] []
+[2014-11-12 18:02:15] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"214340127c716741d195f653cdf5adce","ptlogout":"59197d22ae8e57d0ac58aff08f7333e7"} [] []
+[2014-11-12 18:02:16] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:02:16] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:02:16] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:02:16] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:02:16] local.INFO: ---- ---{"2":{"ptlogout":"59197d22ae8e57d0ac58aff08f7333e7","sid":"23a8129db5a2632640f67026c596c263056abbee"}} [] []
+[2014-11-12 18:02:16] local.INFO: ---- ---{"2":{"ptlogout":"2387a0906fedf1f0ee76b264aa7280a1","sid":"c7bf53276e7a8a87603508c1eb53e66f5e9390d6"}} [] []
+[2014-11-12 18:02:16] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"294519eceec5b7d800f4c3daefaf86e8","ptlogout":"2387a0906fedf1f0ee76b264aa7280a1"} [] []
+[2014-11-12 18:02:16] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:02:16] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:02:16] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:02:16] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:02:16] local.INFO: ---- ---{"2":{"ptlogout":"2387a0906fedf1f0ee76b264aa7280a1","sid":"c7bf53276e7a8a87603508c1eb53e66f5e9390d6"}} [] []
+[2014-11-12 18:02:16] local.INFO: ---- ---{"2":{"ptlogout":"a7d42e9994da78eb5f1f10afec17fc7a","sid":"25809527cc53bbacf32489eb2b8a0d023de19316"}} [] []
+[2014-11-12 18:02:16] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"339db32640dda7cc966e03a6a1e3a0b6","ptlogout":"a7d42e9994da78eb5f1f10afec17fc7a"} [] []
+[2014-11-12 18:02:17] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:02:17] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:02:17] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:02:17] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:02:17] local.INFO: ---- ---{"2":{"ptlogout":"a7d42e9994da78eb5f1f10afec17fc7a","sid":"25809527cc53bbacf32489eb2b8a0d023de19316"}} [] []
+[2014-11-12 18:02:17] local.INFO: ---- ---{"2":{"ptlogout":"1eafeb37cf60d110dc1b324c9a6b00b1","sid":"453aba8e20ad2176ab45d8e6e257f64493bc1981"}} [] []
+[2014-11-12 18:02:17] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"23515e5a332748b04afb2bbcfd2f0e4f","ptlogout":"1eafeb37cf60d110dc1b324c9a6b00b1"} [] []
+[2014-11-12 18:02:18] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:02:18] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:02:18] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:02:18] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:02:18] local.INFO: ---- ---{"2":{"ptlogout":"1eafeb37cf60d110dc1b324c9a6b00b1","sid":"453aba8e20ad2176ab45d8e6e257f64493bc1981"}} [] []
+[2014-11-12 18:02:18] local.INFO: ---- ---{"2":{"ptlogout":"f1588934057ce456dd42c3dc59d9e161","sid":"574bcdde810c0612b31e64575bae7e2726ec387e"}} [] []
+[2014-11-12 18:02:18] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"f1f7a3532ac92101d404d51e29e8e848","ptlogout":"f1588934057ce456dd42c3dc59d9e161"} [] []
+[2014-11-12 18:02:18] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:02:18] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:02:19] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:02:19] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:02:19] local.INFO: ---- ---{"2":{"ptlogout":"f1588934057ce456dd42c3dc59d9e161","sid":"574bcdde810c0612b31e64575bae7e2726ec387e"}} [] []
+[2014-11-12 18:02:19] local.INFO: ---- ---{"2":{"ptlogout":"6f15c5154ef3bf79a4623d739fbe5b8d","sid":"5b923798269f109bf47b299c65c7b9cdf83fe956"}} [] []
+[2014-11-12 18:02:19] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"a7c0b8f527c8d16f339994e336c4b0ca","ptlogout":"6f15c5154ef3bf79a4623d739fbe5b8d"} [] []
+[2014-11-12 18:04:12] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:04:12] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:04:12] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:04:12] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:04:12] local.INFO: ---- ---{"2":{"ptlogout":"6f15c5154ef3bf79a4623d739fbe5b8d","sid":"5b923798269f109bf47b299c65c7b9cdf83fe956"}} [] []
+[2014-11-12 18:04:12] local.INFO: ---- ---{"2":{"ptlogout":"f7214f8ce0b2ba137e48e6cf96cb2ad3","sid":"eb1b83e974a2c7ff722cb365ca0df70b8fd03602"}} [] []
+[2014-11-12 18:04:12] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"697a196f1c4174373e433941f9526bfd","ptlogout":"f7214f8ce0b2ba137e48e6cf96cb2ad3"} [] []
+[2014-11-12 18:04:12] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:04:12] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:04:12] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:04:12] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:04:12] local.INFO: ---- ---{"2":{"ptlogout":"f7214f8ce0b2ba137e48e6cf96cb2ad3","sid":"eb1b83e974a2c7ff722cb365ca0df70b8fd03602"}} [] []
+[2014-11-12 18:04:12] local.INFO: ---- ---{"2":{"ptlogout":"00f33b3fbb6fd73a8da616dd8fd331b7","sid":"420509bc6e2337a3051069c39ae9f6ddb49dcac3"}} [] []
+[2014-11-12 18:04:12] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"77cedf133bf3ea2ef27b400ec9ead256","ptlogout":"00f33b3fbb6fd73a8da616dd8fd331b7"} [] []
+[2014-11-12 18:04:13] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:04:13] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:04:13] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:04:13] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:04:13] local.INFO: ---- ---{"2":{"ptlogout":"00f33b3fbb6fd73a8da616dd8fd331b7","sid":"420509bc6e2337a3051069c39ae9f6ddb49dcac3"}} [] []
+[2014-11-12 18:04:13] local.INFO: ---- ---{"2":{"ptlogout":"d4a18cbed3c3f100821307f7032f20c4","sid":"e3ebebd57a2caee872d5642b84ad871515257b91"}} [] []
+[2014-11-12 18:04:13] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"053d4f1abda65312ef9f43b884f84c35","ptlogout":"d4a18cbed3c3f100821307f7032f20c4"} [] []
+[2014-11-12 18:04:13] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:04:13] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:04:14] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:04:14] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:04:14] local.INFO: ---- ---{"2":{"ptlogout":"d4a18cbed3c3f100821307f7032f20c4","sid":"e3ebebd57a2caee872d5642b84ad871515257b91"}} [] []
+[2014-11-12 18:04:14] local.INFO: ---- ---{"2":{"ptlogout":"f0bd81e9640401555efe8a2149ebe859","sid":"828a1cb86a31fedf6934e77da6865d38b63e725b"}} [] []
+[2014-11-12 18:04:14] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"1e22293a38c9ab99eda24ec0f1b7a88d","ptlogout":"f0bd81e9640401555efe8a2149ebe859"} [] []
+[2014-11-12 18:04:14] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:04:14] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:05:36] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:05:36] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:05:36] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:05:36] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:05:36] local.INFO: ---- ---{"2":{"ptlogout":"f0bd81e9640401555efe8a2149ebe859","sid":"828a1cb86a31fedf6934e77da6865d38b63e725b"}} [] []
+[2014-11-12 18:05:36] local.INFO: ---- ---{"2":{"ptlogout":"2654321ea3fd62a32af41fdf15ef6136","sid":"a796e33234eec5a16338f12161139b05d0ce6122"}} [] []
+[2014-11-12 18:05:36] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"5d2d1ed2586354abfb6928db53d888d5","ptlogout":"2654321ea3fd62a32af41fdf15ef6136"} [] []
+[2014-11-12 18:05:37] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:05:37] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:05:37] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:05:37] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:05:37] local.INFO: ---- ---{"2":{"ptlogout":"2654321ea3fd62a32af41fdf15ef6136","sid":"a796e33234eec5a16338f12161139b05d0ce6122"}} [] []
+[2014-11-12 18:05:37] local.INFO: ---- ---{"2":{"ptlogout":"0b0c0f05e0cabc6dfce3bea61051ac94","sid":"f530fde56b7452886b28ab011a2b8c46211320d0"}} [] []
+[2014-11-12 18:05:37] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"140c02b6f65bab7922a3eafc9e2cf952","ptlogout":"0b0c0f05e0cabc6dfce3bea61051ac94"} [] []
+[2014-11-12 18:05:37] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:05:37] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:06:27] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:06:27] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:06:27] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:06:27] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:06:27] local.INFO: ---- ---{"2":{"ptlogout":"0b0c0f05e0cabc6dfce3bea61051ac94","sid":"f530fde56b7452886b28ab011a2b8c46211320d0"}} [] []
+[2014-11-12 18:06:27] local.INFO: ---- ---{"2":{"ptlogout":"036fc8fe750e6b2d6f2b56e377fc0e28","sid":"8574e2f14a53ca6f18a54635c851e405ee422454"}} [] []
+[2014-11-12 18:06:27] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"bf7c637d102ce5f1c7e6f713bc503711","ptlogout":"036fc8fe750e6b2d6f2b56e377fc0e28"} [] []
+[2014-11-12 18:06:27] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:06:27] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:06:27] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:06:27] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:06:27] local.INFO: ---- ---{"2":{"ptlogout":"036fc8fe750e6b2d6f2b56e377fc0e28","sid":"8574e2f14a53ca6f18a54635c851e405ee422454"}} [] []
+[2014-11-12 18:06:27] local.INFO: ---- ---{"2":{"ptlogout":"76bfa78ef00c5c92c7df428875216ba1","sid":"6a1b2435635ac7c5db50a94f5be489acfff0d712"}} [] []
+[2014-11-12 18:06:28] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"5d090771cf0dc12e534d752d0bb9afe9","ptlogout":"76bfa78ef00c5c92c7df428875216ba1"} [] []
+[2014-11-12 18:06:28] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:06:28] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:06:28] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":2} [] []
+[2014-11-12 18:06:28] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:06:28] local.INFO: ---- ---{"2":{"ptlogout":"76bfa78ef00c5c92c7df428875216ba1","sid":"6a1b2435635ac7c5db50a94f5be489acfff0d712"}} [] []
+[2014-11-12 18:06:28] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"}} [] []
+[2014-11-12 18:06:28] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"8d80052a4b5f5ff2224f1857aded90a6","ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0"} [] []
+[2014-11-12 18:06:54] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:06:54] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:06:54] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:06:54] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:06:54] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"}} [] []
+[2014-11-12 18:06:54] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"28b1e798f3627932265c100cf961b21c","sid":"057034cdfa961943757f3df7258fd89cd4407c6b"}} [] []
+[2014-11-12 18:06:54] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"04b002a38bddcbf6bd0178c7dd4d1194","ptlogout":"28b1e798f3627932265c100cf961b21c"} [] []
+[2014-11-12 18:06:55] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:06:55] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:06:55] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:06:55] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:06:55] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"28b1e798f3627932265c100cf961b21c","sid":"057034cdfa961943757f3df7258fd89cd4407c6b"}} [] []
+[2014-11-12 18:06:55] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"cca5fae9bcf2d542eccf0422d863e778","sid":"9a8208504727cd770c89d9294fc44c25cd4988fe"}} [] []
+[2014-11-12 18:06:55] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"b537642596d4bcd4f7197b35adf4bd98","ptlogout":"cca5fae9bcf2d542eccf0422d863e778"} [] []
+[2014-11-12 18:06:56] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:06:56] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:06:56] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:06:56] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:06:56] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"cca5fae9bcf2d542eccf0422d863e778","sid":"9a8208504727cd770c89d9294fc44c25cd4988fe"}} [] []
+[2014-11-12 18:06:56] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"41d858e95ab1d2cf9b6330ac2bbf3809","sid":"c1b83f9361d912e7917c77f8304b08f097294eaa"}} [] []
+[2014-11-12 18:06:56] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"3018f9e251bc3484387bc84bae4450f4","ptlogout":"41d858e95ab1d2cf9b6330ac2bbf3809"} [] []
+[2014-11-12 18:07:14] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:07:14] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:07:14] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:07:14] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:07:14] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"41d858e95ab1d2cf9b6330ac2bbf3809","sid":"c1b83f9361d912e7917c77f8304b08f097294eaa"}} [] []
+[2014-11-12 18:07:14] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"4ce4b64ca15b2f7df96b2cd9f5e23548","sid":"5c0b2b54b201d5ca64bc0d9802044041037a75d6"}} [] []
+[2014-11-12 18:07:14] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"2c2a0560d3c9047e876572ef6527459b","ptlogout":"4ce4b64ca15b2f7df96b2cd9f5e23548"} [] []
+[2014-11-12 18:07:14] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:07:14] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:07:14] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:07:14] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:07:14] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"4ce4b64ca15b2f7df96b2cd9f5e23548","sid":"5c0b2b54b201d5ca64bc0d9802044041037a75d6"}} [] []
+[2014-11-12 18:07:14] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"bb0b760f961953c5e68e763d393354d7","sid":"bb03108601fe5a43768f6352ff6c55ed208a91fa"}} [] []
+[2014-11-12 18:07:14] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"7aa1f02c69e9b4c6f005924d26ddc215","ptlogout":"bb0b760f961953c5e68e763d393354d7"} [] []
+[2014-11-12 18:07:15] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:07:15] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:07:15] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:07:15] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:07:15] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"bb0b760f961953c5e68e763d393354d7","sid":"bb03108601fe5a43768f6352ff6c55ed208a91fa"}} [] []
+[2014-11-12 18:07:15] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"10a81b3bba157f02b09fe76e0753a5a0","sid":"a5a467594c6a9c3ba308ae363ca6b5919eeae338"}} [] []
+[2014-11-12 18:07:15] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"9b99c179b8b33120852c0cbd003ffbcb","ptlogout":"10a81b3bba157f02b09fe76e0753a5a0"} [] []
+[2014-11-12 18:07:15] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:07:15] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:07:16] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:07:16] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:07:16] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"10a81b3bba157f02b09fe76e0753a5a0","sid":"a5a467594c6a9c3ba308ae363ca6b5919eeae338"}} [] []
+[2014-11-12 18:07:16] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"58a0b580d72952cc6d1825c6689efde2","sid":"7289685f90508d7f026477377809a29a74e42c16"}} [] []
+[2014-11-12 18:07:16] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"2e39f216797c32633a3bc723c7abcee8","ptlogout":"58a0b580d72952cc6d1825c6689efde2"} [] []
+[2014-11-12 18:07:23] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:07:23] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:07:24] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:07:24] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:07:24] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"58a0b580d72952cc6d1825c6689efde2","sid":"7289685f90508d7f026477377809a29a74e42c16"}} [] []
+[2014-11-12 18:07:24] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"325c83e1ebbbf943a6dfb5d30f850061","sid":"105423bf840a07b5edbfa10bc17d9e7e07b432f0"}} [] []
+[2014-11-12 18:07:24] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"394e585abd1b9aebaae652e495b95505","ptlogout":"325c83e1ebbbf943a6dfb5d30f850061"} [] []
+[2014-11-12 18:07:24] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:07:24] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:07:24] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:07:24] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:07:24] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"325c83e1ebbbf943a6dfb5d30f850061","sid":"105423bf840a07b5edbfa10bc17d9e7e07b432f0"}} [] []
+[2014-11-12 18:07:24] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"841124492681ea568aa598c5e847981a","sid":"6cc7a0a548cd1f788ead759272eaca914995f422"}} [] []
+[2014-11-12 18:07:24] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"a133a9b705b7fdf6e48e87dea0212e09","ptlogout":"841124492681ea568aa598c5e847981a"} [] []
+[2014-11-12 18:07:25] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:07:25] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:07:25] local.INFO: tikect info : {"sid":"b76282e58b59e1f281296d35f0a82c50f63060e8","appid":1} [] []
+[2014-11-12 18:07:25] local.INFO: sync get session id : b76282e58b59e1f281296d35f0a82c50f63060e8 [] []
+[2014-11-12 18:07:25] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"841124492681ea568aa598c5e847981a","sid":"6cc7a0a548cd1f788ead759272eaca914995f422"}} [] []
+[2014-11-12 18:07:25] local.INFO: ---- ---{"2":{"ptlogout":"042a16dfec0f0b33ed91e05fb579f7a0","sid":"5a03432274d7258608bfb66ec5b54b563f7a17ca"},"1":{"ptlogout":"3e00cc52ff9065d69b7bcd32170434cd","sid":"d023c7b01d4b3c20c3b7d2b74b5020d098c971a1"}} [] []
+[2014-11-12 18:07:25] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"29e2695c648fb8963bd755e440beebaf","ptlogout":"3e00cc52ff9065d69b7bcd32170434cd"} [] []
+[2014-11-12 18:09:20] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:09:30] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:09:40] local.INFO: send session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:09:41] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:09:41] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:09:41] local.INFO: ---- ---[] [] []
+[2014-11-12 18:09:41] local.INFO: ---- ---{"2":{"ptlogout":"3aa7a48305825506515709bb51cb2f00","sid":"c5fa7a99f7cc52c49ecee28356205575c57237ff"}} [] []
+[2014-11-12 18:09:41] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"84819ab5845070bb198d99effb78625b","ptlogout":"3aa7a48305825506515709bb51cb2f00"} [] []
+[2014-11-12 18:09:41] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:09:41] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:09:41] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:09:41] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:09:41] local.INFO: ---- ---{"2":{"ptlogout":"3aa7a48305825506515709bb51cb2f00","sid":"c5fa7a99f7cc52c49ecee28356205575c57237ff"}} [] []
+[2014-11-12 18:09:41] local.INFO: ---- ---{"2":{"ptlogout":"e0cbc31da83da278be3a0d1a966c0cad","sid":"779e090d85a48e131efaa2712a6748e3651393fa"}} [] []
+[2014-11-12 18:09:41] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"4e12f9314fd8cfb38140a5cbad0cfdb8","ptlogout":"e0cbc31da83da278be3a0d1a966c0cad"} [] []
+[2014-11-12 18:09:42] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:09:42] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:09:42] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:09:42] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:09:42] local.INFO: ---- ---{"2":{"ptlogout":"e0cbc31da83da278be3a0d1a966c0cad","sid":"779e090d85a48e131efaa2712a6748e3651393fa"}} [] []
+[2014-11-12 18:09:42] local.INFO: ---- ---{"2":{"ptlogout":"095ec5c2a3594ef56051fd447fe51b07","sid":"53db946536b35b1490c8d54550c111fdaab371ca"}} [] []
+[2014-11-12 18:09:42] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"69f5b759f3b037a41439bdc2245901be","ptlogout":"095ec5c2a3594ef56051fd447fe51b07"} [] []
+[2014-11-12 18:09:43] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:09:43] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:09:43] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:09:43] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:09:43] local.INFO: ---- ---{"2":{"ptlogout":"095ec5c2a3594ef56051fd447fe51b07","sid":"53db946536b35b1490c8d54550c111fdaab371ca"}} [] []
+[2014-11-12 18:09:43] local.INFO: ---- ---{"2":{"ptlogout":"6008ac55c338adaafb53d32297510848","sid":"149487ff5ed23274c7f72c9a0a4f3fe404778788"}} [] []
+[2014-11-12 18:09:43] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"a14029cbacc4232952e28f8bb4aa4e46","ptlogout":"6008ac55c338adaafb53d32297510848"} [] []
+[2014-11-12 18:09:43] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:09:43] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:09:44] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:09:44] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:09:44] local.INFO: ---- ---{"2":{"ptlogout":"6008ac55c338adaafb53d32297510848","sid":"149487ff5ed23274c7f72c9a0a4f3fe404778788"}} [] []
+[2014-11-12 18:09:44] local.INFO: ---- ---{"2":{"ptlogout":"977025cb842653f952c4c0a91f213b1e","sid":"bca9d95c202f400dfceda7298e73a07c89715fbb"}} [] []
+[2014-11-12 18:09:44] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"c4bf2639d3178222ac33718ec50c762f","ptlogout":"977025cb842653f952c4c0a91f213b1e"} [] []
+[2014-11-12 18:11:29] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:11:29] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:11:29] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:11:29] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:11:29] local.INFO: ---- ---{"2":{"ptlogout":"977025cb842653f952c4c0a91f213b1e","sid":"bca9d95c202f400dfceda7298e73a07c89715fbb"}} [] []
+[2014-11-12 18:11:29] local.INFO: ---- ---{"2":{"ptlogout":"e3f71ac0b793d3735d6ee3f285f68b8c","sid":"06bf217f6fdab8d52b6a32f3760e32781bd09706"}} [] []
+[2014-11-12 18:11:29] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"d21a2e7ea79a6424c94d7791b93144a9","ptlogout":"e3f71ac0b793d3735d6ee3f285f68b8c"} [] []
+[2014-11-12 18:11:30] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:11:30] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:11:30] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:11:30] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:11:30] local.INFO: ---- ---{"2":{"ptlogout":"e3f71ac0b793d3735d6ee3f285f68b8c","sid":"06bf217f6fdab8d52b6a32f3760e32781bd09706"}} [] []
+[2014-11-12 18:11:30] local.INFO: ---- ---{"2":{"ptlogout":"42149b811fcd47b2c8c15ef0f3ec5a39","sid":"c6262b9a71f83d5666c3c11c5ff703217840487e"}} [] []
+[2014-11-12 18:11:30] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"c1cadb11a6311d00f2474a1273613bce","ptlogout":"42149b811fcd47b2c8c15ef0f3ec5a39"} [] []
+[2014-11-12 18:11:30] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:11:30] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:11:30] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:11:30] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:11:30] local.INFO: ---- ---{"2":{"ptlogout":"42149b811fcd47b2c8c15ef0f3ec5a39","sid":"c6262b9a71f83d5666c3c11c5ff703217840487e"}} [] []
+[2014-11-12 18:11:30] local.INFO: ---- ---{"2":{"ptlogout":"30742071e8168f59047ea1042be5d18e","sid":"e82fd48629ca0f4ba39331ff7ed2b82b5d8d0fb3"}} [] []
+[2014-11-12 18:11:30] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"644be0aa528c99a8aa8e8e23750bb0d2","ptlogout":"30742071e8168f59047ea1042be5d18e"} [] []
+[2014-11-12 18:11:31] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:11:31] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:11:31] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:11:31] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:11:31] local.INFO: ---- ---{"2":{"ptlogout":"30742071e8168f59047ea1042be5d18e","sid":"e82fd48629ca0f4ba39331ff7ed2b82b5d8d0fb3"}} [] []
+[2014-11-12 18:11:31] local.INFO: ---- ---{"2":{"ptlogout":"e22955b1f8dd0e20bb42f140bd785b49","sid":"7bc99a6ea4d7627f1af5e936dec842d6f907d13c"}} [] []
+[2014-11-12 18:11:31] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"8158930818e0cff5845f49822e61ba11","ptlogout":"e22955b1f8dd0e20bb42f140bd785b49"} [] []
+[2014-11-12 18:11:32] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:11:32] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:11:32] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:11:32] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:11:32] local.INFO: ---- ---{"2":{"ptlogout":"e22955b1f8dd0e20bb42f140bd785b49","sid":"7bc99a6ea4d7627f1af5e936dec842d6f907d13c"}} [] []
+[2014-11-12 18:11:32] local.INFO: ---- ---{"2":{"ptlogout":"a9087856ec5ae7c4e436b0dec4e98445","sid":"535f720fcc190053fbd6194f0622aa6a0049bded"}} [] []
+[2014-11-12 18:11:32] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"5036043f3b1fafdc10ca02be67a4e68e","ptlogout":"a9087856ec5ae7c4e436b0dec4e98445"} [] []
+[2014-11-12 18:11:32] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:11:32] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:11:33] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:11:33] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:11:33] local.INFO: ---- ---{"2":{"ptlogout":"a9087856ec5ae7c4e436b0dec4e98445","sid":"535f720fcc190053fbd6194f0622aa6a0049bded"}} [] []
+[2014-11-12 18:11:33] local.INFO: ---- ---{"2":{"ptlogout":"9c985f2a198b72f883a8cebcbf58c0e8","sid":"366a42761129e3390381202c453f581030e81ab3"}} [] []
+[2014-11-12 18:11:33] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"24f79d06e005a928d3edcf11b5d11d47","ptlogout":"9c985f2a198b72f883a8cebcbf58c0e8"} [] []
+[2014-11-12 18:11:33] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:11:33] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:11:34] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:11:34] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:11:34] local.INFO: ---- ---{"2":{"ptlogout":"9c985f2a198b72f883a8cebcbf58c0e8","sid":"366a42761129e3390381202c453f581030e81ab3"}} [] []
+[2014-11-12 18:11:34] local.INFO: ---- ---{"2":{"ptlogout":"6f6c3859c7018b5969156f184526befa","sid":"0b9688dcc72afc12deecaa6ba5bd9de7ee3a82df"}} [] []
+[2014-11-12 18:11:34] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"2c46eb21044990e2142c35894c3f61fc","ptlogout":"6f6c3859c7018b5969156f184526befa"} [] []
+[2014-11-12 18:11:34] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:11:34] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:12:56] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:12:56] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:12:56] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:12:56] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:12:56] local.INFO: ---- ---{"2":{"ptlogout":"6f6c3859c7018b5969156f184526befa","sid":"0b9688dcc72afc12deecaa6ba5bd9de7ee3a82df"}} [] []
+[2014-11-12 18:12:56] local.INFO: ---- ---{"2":{"ptlogout":"baf0814f8cca96c7df81f20c7cbc87f3","sid":"915eed96f8d0d00f03bfb8c470f8fa3b6d4e7be7"}} [] []
+[2014-11-12 18:12:56] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"05acc36ff0c2d08bd68953867a0b6b25","ptlogout":"baf0814f8cca96c7df81f20c7cbc87f3"} [] []
+[2014-11-12 18:12:57] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:12:57] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:12:57] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:12:57] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:12:57] local.INFO: ---- ---{"2":{"ptlogout":"baf0814f8cca96c7df81f20c7cbc87f3","sid":"915eed96f8d0d00f03bfb8c470f8fa3b6d4e7be7"}} [] []
+[2014-11-12 18:12:57] local.INFO: ---- ---{"2":{"ptlogout":"f784f2ae4159ac2b57b9170ce56c824f","sid":"a07e4469d89b0142670c5b5df8d966f2a37e7b83"}} [] []
+[2014-11-12 18:12:57] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"9e72633a863200d975dd2ab12bd8be38","ptlogout":"f784f2ae4159ac2b57b9170ce56c824f"} [] []
+[2014-11-12 18:12:57] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:12:57] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:12:57] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:12:57] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:12:57] local.INFO: ---- ---{"2":{"ptlogout":"f784f2ae4159ac2b57b9170ce56c824f","sid":"a07e4469d89b0142670c5b5df8d966f2a37e7b83"}} [] []
+[2014-11-12 18:12:57] local.INFO: ---- ---{"2":{"ptlogout":"9f6a9b4b6775c48bbd696fdb17ef0300","sid":"858856d096ac1899126134f4ada726c617a699d1"}} [] []
+[2014-11-12 18:12:57] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"0b444a9372b552e9ce601608e53dec43","ptlogout":"9f6a9b4b6775c48bbd696fdb17ef0300"} [] []
+[2014-11-12 18:12:58] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:12:58] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:12:58] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:12:58] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:12:58] local.INFO: ---- ---{"2":{"ptlogout":"9f6a9b4b6775c48bbd696fdb17ef0300","sid":"858856d096ac1899126134f4ada726c617a699d1"}} [] []
+[2014-11-12 18:12:58] local.INFO: ---- ---{"2":{"ptlogout":"b9d6ebcb78cc9ac24d03a6f4e5e258db","sid":"0c8e7ea1dbf9d8e0b0234e6064e182512f33e4a3"}} [] []
+[2014-11-12 18:12:58] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"332c074e58476913e77c5fc4d9b45256","ptlogout":"b9d6ebcb78cc9ac24d03a6f4e5e258db"} [] []
+[2014-11-12 18:14:02] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:14:08] local.INFO: send session id : a25173b4cd56033417f05a6c016a024f0461b356 [] []
+[2014-11-12 18:14:09] local.INFO: tikect info : {"sid":"a25173b4cd56033417f05a6c016a024f0461b356","appid":2} [] []
+[2014-11-12 18:14:09] local.INFO: sync get session id : a25173b4cd56033417f05a6c016a024f0461b356 [] []
+[2014-11-12 18:14:09] local.INFO: ---- ---[] [] []
+[2014-11-12 18:14:09] local.INFO: ---- ---{"2":{"ptlogout":"f5168ef75ef0f2606539a7f2efc1ab65","sid":"79f5d4b89cbc89ca4f40b5c8d5405c6fd706607d"}} [] []
+[2014-11-12 18:14:09] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"2cc64cfe01bb074ed4b74ebaf2d1e5cd","ptlogout":"f5168ef75ef0f2606539a7f2efc1ab65"} [] []
+[2014-11-12 18:14:09] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:14:09] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:14:09] local.INFO: tikect info : {"sid":"a25173b4cd56033417f05a6c016a024f0461b356","appid":2} [] []
+[2014-11-12 18:14:09] local.INFO: sync get session id : a25173b4cd56033417f05a6c016a024f0461b356 [] []
+[2014-11-12 18:14:09] local.INFO: ---- ---{"2":{"ptlogout":"f5168ef75ef0f2606539a7f2efc1ab65","sid":"79f5d4b89cbc89ca4f40b5c8d5405c6fd706607d"}} [] []
+[2014-11-12 18:14:09] local.INFO: ---- ---{"2":{"ptlogout":"155dbdab04ca2c7c741cc45a51a0e677","sid":"9e2aab28815b89adbac9a7b7ebcc637ba66e927e"}} [] []
+[2014-11-12 18:14:09] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"f94aab2d47f6a9ee91f85591cb6b08f2","ptlogout":"155dbdab04ca2c7c741cc45a51a0e677"} [] []
+[2014-11-12 18:14:10] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:14:10] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:14:10] local.INFO: tikect info : {"sid":"a25173b4cd56033417f05a6c016a024f0461b356","appid":2} [] []
+[2014-11-12 18:14:10] local.INFO: sync get session id : a25173b4cd56033417f05a6c016a024f0461b356 [] []
+[2014-11-12 18:14:10] local.INFO: ---- ---{"2":{"ptlogout":"155dbdab04ca2c7c741cc45a51a0e677","sid":"9e2aab28815b89adbac9a7b7ebcc637ba66e927e"}} [] []
+[2014-11-12 18:14:10] local.INFO: ---- ---{"2":{"ptlogout":"a270b3739279d5a2f704713871fa7842","sid":"513457bf033df2326e92ef9291fa4cf42b7316f5"}} [] []
+[2014-11-12 18:14:10] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"39b528d2e7e7bd694599a9ece695a69c","ptlogout":"a270b3739279d5a2f704713871fa7842"} [] []
+[2014-11-12 18:14:10] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:14:10] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:14:11] local.INFO: tikect info : {"sid":"a25173b4cd56033417f05a6c016a024f0461b356","appid":2} [] []
+[2014-11-12 18:14:11] local.INFO: sync get session id : a25173b4cd56033417f05a6c016a024f0461b356 [] []
+[2014-11-12 18:14:11] local.INFO: ---- ---{"2":{"ptlogout":"a270b3739279d5a2f704713871fa7842","sid":"513457bf033df2326e92ef9291fa4cf42b7316f5"}} [] []
+[2014-11-12 18:14:11] local.INFO: ---- ---{"2":{"ptlogout":"1f4dd54f33e0bbd7467d59207ab5a28c","sid":"4b4569e86baf9abbe59544e546c804ffcfbe57eb"}} [] []
+[2014-11-12 18:14:11] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"116150090ccf42dfb2d8c46655112569","ptlogout":"1f4dd54f33e0bbd7467d59207ab5a28c"} [] []
+[2014-11-12 18:14:11] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:14:11] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:32] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:32] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:33] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":1} [] []
+[2014-11-12 18:18:33] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:33] local.INFO: ---- ---{"2":{"ptlogout":"b9d6ebcb78cc9ac24d03a6f4e5e258db","sid":"0c8e7ea1dbf9d8e0b0234e6064e182512f33e4a3"}} [] []
+[2014-11-12 18:18:33] local.INFO: ---- ---{"2":{"ptlogout":"b9d6ebcb78cc9ac24d03a6f4e5e258db","sid":"0c8e7ea1dbf9d8e0b0234e6064e182512f33e4a3"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:33] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"33dfde503f85a9f8539bb49de6df63c1","ptlogout":"a3d533e69bb9cdffae49f5a29e053674"} [] []
+[2014-11-12 18:18:39] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:39] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:39] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:39] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:39] local.INFO: ---- ---{"2":{"ptlogout":"b9d6ebcb78cc9ac24d03a6f4e5e258db","sid":"0c8e7ea1dbf9d8e0b0234e6064e182512f33e4a3"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:39] local.INFO: ---- ---{"2":{"ptlogout":"27f0ef3be0fbb8fbfb6a6bd166e608f5","sid":"8eebf6e0bb565975f29c82e1b6abfecb2eed04e8"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:39] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"ba43e92bd1452d069b5a7886c86709d4","ptlogout":"27f0ef3be0fbb8fbfb6a6bd166e608f5"} [] []
+[2014-11-12 18:18:40] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:40] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:40] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:40] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:40] local.INFO: ---- ---{"2":{"ptlogout":"27f0ef3be0fbb8fbfb6a6bd166e608f5","sid":"8eebf6e0bb565975f29c82e1b6abfecb2eed04e8"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:40] local.INFO: ---- ---{"2":{"ptlogout":"954652cf251860ce60e78a78575df31e","sid":"36cb331c2a24612ec7eb9331147a2f5d42dcdb20"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:40] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"86daa917941dd97f0026e51b556f186c","ptlogout":"954652cf251860ce60e78a78575df31e"} [] []
+[2014-11-12 18:18:40] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:40] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:40] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:40] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:40] local.INFO: ---- ---{"2":{"ptlogout":"954652cf251860ce60e78a78575df31e","sid":"36cb331c2a24612ec7eb9331147a2f5d42dcdb20"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:40] local.INFO: ---- ---{"2":{"ptlogout":"59f1d0edb501078e0cff15ccdd42ed97","sid":"fc35ff4873bda0b483fb8ce0c5dd7d4b217db214"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:40] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"21c1fea41d372254245e8f8e301fe09f","ptlogout":"59f1d0edb501078e0cff15ccdd42ed97"} [] []
+[2014-11-12 18:18:41] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:41] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:41] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:41] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:41] local.INFO: ---- ---{"2":{"ptlogout":"59f1d0edb501078e0cff15ccdd42ed97","sid":"fc35ff4873bda0b483fb8ce0c5dd7d4b217db214"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:41] local.INFO: ---- ---{"2":{"ptlogout":"89e0648d89c1854d93b5234bc31e635a","sid":"6bd89de0442b5c1ad907a3d9989905c8c0256600"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:41] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"c66b5ad3f014693c58c3119b229b654e","ptlogout":"89e0648d89c1854d93b5234bc31e635a"} [] []
+[2014-11-12 18:18:42] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:42] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:42] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:42] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:42] local.INFO: ---- ---{"2":{"ptlogout":"89e0648d89c1854d93b5234bc31e635a","sid":"6bd89de0442b5c1ad907a3d9989905c8c0256600"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:42] local.INFO: ---- ---{"2":{"ptlogout":"d0ef5c1673efd2ba272127f8ca013240","sid":"1cbc7797e25cf26573045f1ac892d5777a54141c"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:42] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"8e7b1605afc4ef2924a03ee9267c6cd5","ptlogout":"d0ef5c1673efd2ba272127f8ca013240"} [] []
+[2014-11-12 18:18:42] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:42] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:43] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:43] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:43] local.INFO: ---- ---{"2":{"ptlogout":"d0ef5c1673efd2ba272127f8ca013240","sid":"1cbc7797e25cf26573045f1ac892d5777a54141c"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:43] local.INFO: ---- ---{"2":{"ptlogout":"fcadfe9493f9248eb7673d259f6fe61c","sid":"d1203cfb660338de83e39a09ab489973024d2363"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:43] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"f026dc75cb8a7e716301e0f9eb2f6b39","ptlogout":"fcadfe9493f9248eb7673d259f6fe61c"} [] []
+[2014-11-12 18:18:43] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:43] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:43] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:43] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:43] local.INFO: ---- ---{"2":{"ptlogout":"fcadfe9493f9248eb7673d259f6fe61c","sid":"d1203cfb660338de83e39a09ab489973024d2363"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:43] local.INFO: ---- ---{"2":{"ptlogout":"b9f57edfd26fbcee7c7ce0652e8916a7","sid":"9d34bb8cb4db86a2bef3b963acaa27674ca917bf"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:43] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"16bf4e03f1a458af6fd05ff0025019a7","ptlogout":"b9f57edfd26fbcee7c7ce0652e8916a7"} [] []
+[2014-11-12 18:18:44] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:44] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:44] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:44] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:44] local.INFO: ---- ---{"2":{"ptlogout":"b9f57edfd26fbcee7c7ce0652e8916a7","sid":"9d34bb8cb4db86a2bef3b963acaa27674ca917bf"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:44] local.INFO: ---- ---{"2":{"ptlogout":"a81d95a575e186ace686c54f83d28c42","sid":"0ad51e675f9ef4a1441258a97410009764c04672"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:44] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"49602b40f6efac837ba720122cea0134","ptlogout":"a81d95a575e186ace686c54f83d28c42"} [] []
+[2014-11-12 18:18:45] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:45] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:45] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:45] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:45] local.INFO: ---- ---{"2":{"ptlogout":"a81d95a575e186ace686c54f83d28c42","sid":"0ad51e675f9ef4a1441258a97410009764c04672"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:45] local.INFO: ---- ---{"2":{"ptlogout":"5566c498a06340efe0c3ed1c30f6c098","sid":"21146cd29cda1def058e96911347333106ef0031"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:45] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"903507c5624e43dd705c487217205dca","ptlogout":"5566c498a06340efe0c3ed1c30f6c098"} [] []
+[2014-11-12 18:18:46] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:46] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:46] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:46] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:46] local.INFO: ---- ---{"2":{"ptlogout":"5566c498a06340efe0c3ed1c30f6c098","sid":"21146cd29cda1def058e96911347333106ef0031"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:46] local.INFO: ---- ---{"2":{"ptlogout":"eff24cdc153f3008986614c09bf04177","sid":"6d3844df4a48448f0db4a45431ca442061f3c15d"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:46] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"cc5a57bd59fb9c3763ed5d6dcb56b89d","ptlogout":"eff24cdc153f3008986614c09bf04177"} [] []
+[2014-11-12 18:18:51] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:51] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:51] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:51] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:51] local.INFO: ---- ---{"2":{"ptlogout":"eff24cdc153f3008986614c09bf04177","sid":"6d3844df4a48448f0db4a45431ca442061f3c15d"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:51] local.INFO: ---- ---{"2":{"ptlogout":"3d3b1444aa68d6d697fd2a2b49be23a2","sid":"0fd7035a8a7b38e965682ae28ddae885cb4bf11b"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:51] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"796b52ecbdc49e64cb7c9c12168354d1","ptlogout":"3d3b1444aa68d6d697fd2a2b49be23a2"} [] []
+[2014-11-12 18:18:52] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:18:52] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:18:52] local.INFO: tikect info : {"sid":"c1bc8b299cdf184670ce6b51ea80bce7834c07c1","appid":2} [] []
+[2014-11-12 18:18:52] local.INFO: sync get session id : c1bc8b299cdf184670ce6b51ea80bce7834c07c1 [] []
+[2014-11-12 18:18:52] local.INFO: ---- ---{"2":{"ptlogout":"3d3b1444aa68d6d697fd2a2b49be23a2","sid":"0fd7035a8a7b38e965682ae28ddae885cb4bf11b"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:52] local.INFO: ---- ---{"2":{"ptlogout":"c4ac2696b78f4f899e274baec1730df8","sid":"109c097915c52eecb7cd0bd08e197c5ef369089e"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:18:52] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"22720028387d20e2abc23c2d6d500b4f","ptlogout":"c4ac2696b78f4f899e274baec1730df8"} [] []
+[2014-11-12 18:19:22] local.INFO: get params : {"appid":"1","ptoken":"33dfde503f85a9f8539bb49de6df63c1"} [] []
+[2014-11-12 18:19:22] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 18:19:22] local.INFO: ptlogin{"2":{"ptlogout":"c4ac2696b78f4f899e274baec1730df8","sid":"109c097915c52eecb7cd0bd08e197c5ef369089e"},"1":{"ptlogout":"a3d533e69bb9cdffae49f5a29e053674","sid":"f877dd09ec70f359ba9ad67d3872e64294182935"}} [] []
+[2014-11-12 18:19:22] local.INFO: out url : 2 : http://b.test.com/sso/logout?tikect=c4ac2696b78f4f899e274baec1730df8&sid=109c097915c52eecb7cd0bd08e197c5ef369089e [] []
+[2014-11-12 18:19:23] local.INFO: logout 2: {"code":403,"msg":"auth failed"} [] []
+[2014-11-12 18:19:23] local.INFO: 自己退出 ！！ [] []
+[2014-11-12 18:19:23] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:22:32] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:22:32] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:22:33] local.INFO: tikect info : {"sid":"a25173b4cd56033417f05a6c016a024f0461b356","appid":1} [] []
+[2014-11-12 18:22:33] local.INFO: sync get session id : a25173b4cd56033417f05a6c016a024f0461b356 [] []
+[2014-11-12 18:22:33] local.INFO: ---- ---{"2":{"ptlogout":"1f4dd54f33e0bbd7467d59207ab5a28c","sid":"4b4569e86baf9abbe59544e546c804ffcfbe57eb"}} [] []
+[2014-11-12 18:22:33] local.INFO: ---- ---{"2":{"ptlogout":"1f4dd54f33e0bbd7467d59207ab5a28c","sid":"4b4569e86baf9abbe59544e546c804ffcfbe57eb"},"1":{"ptlogout":"43f5f0bd21ea8f576ae6a65a323ef9c6","sid":"1eb8715eb3fc140c5d5a4fc050c925b8d02ab7a5"}} [] []
+[2014-11-12 18:22:33] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"3261c5c22f2e0485f7074471aedcc56d","ptlogout":"43f5f0bd21ea8f576ae6a65a323ef9c6"} [] []
+[2014-11-12 18:22:41] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:22:41] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:22:42] local.INFO: tikect info : {"sid":"a25173b4cd56033417f05a6c016a024f0461b356","appid":2} [] []
+[2014-11-12 18:22:42] local.INFO: sync get session id : a25173b4cd56033417f05a6c016a024f0461b356 [] []
+[2014-11-12 18:22:42] local.INFO: ---- ---{"2":{"ptlogout":"1f4dd54f33e0bbd7467d59207ab5a28c","sid":"4b4569e86baf9abbe59544e546c804ffcfbe57eb"},"1":{"ptlogout":"43f5f0bd21ea8f576ae6a65a323ef9c6","sid":"1eb8715eb3fc140c5d5a4fc050c925b8d02ab7a5"}} [] []
+[2014-11-12 18:22:42] local.INFO: ---- ---{"2":{"ptlogout":"67699d6b2a2ef1e62e96b72f5d9135df","sid":"295b4c0ef07ecbc9abbb00a457aa2489d503a5c5"},"1":{"ptlogout":"43f5f0bd21ea8f576ae6a65a323ef9c6","sid":"1eb8715eb3fc140c5d5a4fc050c925b8d02ab7a5"}} [] []
+[2014-11-12 18:22:42] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"74098a806795982d19c19e3062e96dd2","ptlogout":"67699d6b2a2ef1e62e96b72f5d9135df"} [] []
+[2014-11-12 18:23:00] local.INFO: get params : {"appid":"2","ptoken":"74098a806795982d19c19e3062e96dd2"} [] []
+[2014-11-12 18:23:00] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 18:23:00] local.INFO: ptlogin{"2":{"ptlogout":"67699d6b2a2ef1e62e96b72f5d9135df","sid":"295b4c0ef07ecbc9abbb00a457aa2489d503a5c5"},"1":{"ptlogout":"43f5f0bd21ea8f576ae6a65a323ef9c6","sid":"1eb8715eb3fc140c5d5a4fc050c925b8d02ab7a5"}} [] []
+[2014-11-12 18:23:00] local.INFO: 自己退出 ！！ [] []
+[2014-11-12 18:23:00] local.INFO: out url : 1 : http://a.test.com/sso/logout?tikect=43f5f0bd21ea8f576ae6a65a323ef9c6&sid=1eb8715eb3fc140c5d5a4fc050c925b8d02ab7a5 [] []
+[2014-11-12 18:23:01] local.INFO: logout 1: {"code":403,"msg":"auth failed"} [] []
+[2014-11-12 18:23:01] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:36:05] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:36:10] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:36:17] local.INFO: send session id : 1ac6aff530f8bd4b666d5a56b22e493cd9a6d370 [] []
+[2014-11-12 18:36:17] local.INFO: tikect info : {"sid":"1ac6aff530f8bd4b666d5a56b22e493cd9a6d370","appid":1} [] []
+[2014-11-12 18:36:17] local.INFO: sync get session id : 1ac6aff530f8bd4b666d5a56b22e493cd9a6d370 [] []
+[2014-11-12 18:36:17] local.INFO: ---- ---[] [] []
+[2014-11-12 18:36:17] local.INFO: ---- ---{"1":{"ptlogout":"bae78146fd9d96593675b4a7f5ec001f","sid":"97bb03f925d71f027a7d0650a0fac0d4af8828af"}} [] []
+[2014-11-12 18:36:17] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"827706e038d0a725c85d4051602fc209","ptlogout":"bae78146fd9d96593675b4a7f5ec001f"} [] []
+[2014-11-12 18:37:19] local.INFO: get params : {"appid":"1","ptoken":""} [] []
+[2014-11-12 18:37:35] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:37:35] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:37:35] local.INFO: tikect info : {"sid":"1ac6aff530f8bd4b666d5a56b22e493cd9a6d370","appid":1} [] []
+[2014-11-12 18:37:35] local.INFO: sync get session id : 1ac6aff530f8bd4b666d5a56b22e493cd9a6d370 [] []
+[2014-11-12 18:37:35] local.INFO: ---- ---{"1":{"ptlogout":"bae78146fd9d96593675b4a7f5ec001f","sid":"97bb03f925d71f027a7d0650a0fac0d4af8828af"}} [] []
+[2014-11-12 18:37:35] local.INFO: ---- ---{"1":{"ptlogout":"e1d590b7811c14641a88af00ff4e5a48","sid":"e2117672ed8332a5b64ec3a7bea13d432c5aa44d"}} [] []
+[2014-11-12 18:37:35] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"e764596c5d193b3fc7277a6e8930b2dc","ptlogout":"e1d590b7811c14641a88af00ff4e5a48"} [] []
+[2014-11-12 18:37:41] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:37:41] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:37:41] local.INFO: tikect info : {"sid":"1ac6aff530f8bd4b666d5a56b22e493cd9a6d370","appid":2} [] []
+[2014-11-12 18:37:41] local.INFO: sync get session id : 1ac6aff530f8bd4b666d5a56b22e493cd9a6d370 [] []
+[2014-11-12 18:37:41] local.INFO: ---- ---{"1":{"ptlogout":"e1d590b7811c14641a88af00ff4e5a48","sid":"e2117672ed8332a5b64ec3a7bea13d432c5aa44d"}} [] []
+[2014-11-12 18:37:41] local.INFO: ---- ---{"1":{"ptlogout":"e1d590b7811c14641a88af00ff4e5a48","sid":"e2117672ed8332a5b64ec3a7bea13d432c5aa44d"},"2":{"ptlogout":"fe4b8fc35ff7975c2bd9896a2ae7da30","sid":"8594a0e45593b6f786f7cac530f06594851cec3d"}} [] []
+[2014-11-12 18:37:41] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"b0db1898da4937c797d7de994e35c061","ptlogout":"fe4b8fc35ff7975c2bd9896a2ae7da30"} [] []
+[2014-11-12 18:38:22] local.INFO: get params : {"appid":"2","ptoken":"b0db1898da4937c797d7de994e35c061"} [] []
+[2014-11-12 18:38:22] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 18:38:22] local.INFO: ptlogin{"1":{"ptlogout":"e1d590b7811c14641a88af00ff4e5a48","sid":"e2117672ed8332a5b64ec3a7bea13d432c5aa44d"},"2":{"ptlogout":"fe4b8fc35ff7975c2bd9896a2ae7da30","sid":"8594a0e45593b6f786f7cac530f06594851cec3d"}} [] []
+[2014-11-12 18:38:22] local.INFO: out url : 1 : http://a.test.com/sso/logout?tikect=e1d590b7811c14641a88af00ff4e5a48&sid=e2117672ed8332a5b64ec3a7bea13d432c5aa44d [] []
+[2014-11-12 18:38:22] local.INFO: logout 1: <link rel="stylesheet" type="text/css" href="http://a.test.com/_debugbar/assets/stylesheets?1415591618">
+<script type="text/javascript" src="http://a.test.com/_debugbar/assets/javascript?1415591618"></script>
+<script type="text/javascript">jQuery.noConflict(true);</script>
+<script type="text/javascript">
+var phpdebugbar = new PhpDebugBar.DebugBar();
+phpdebugbar.addTab("messages", new PhpDebugBar.DebugBar.Tab({"icon":"list-alt","title":"Messages", "widget": new PhpDebugBar.Widgets.MessagesWidget()}));
+phpdebugbar.addIndicator("time", new PhpDebugBar.DebugBar.Indicator({"icon":"clock-o","tooltip":"Request Duration"}), "right");
+phpdebugbar.addTab("timeline", new PhpDebugBar.DebugBar.Tab({"icon":"tasks","title":"Timeline", "widget": new PhpDebugBar.Widgets.TimelineWidget()}));
+phpdebugbar.addIndicator("memory", new PhpDebugBar.DebugBar.Indicator({"icon":"cogs","tooltip":"Memory Usage"}), "right");
+phpdebugbar.addTab("exceptions", new PhpDebugBar.DebugBar.Tab({"icon":"bug","title":"Exceptions", "widget": new PhpDebugBar.Widgets.ExceptionsWidget()}));
+phpdebugbar.addTab("views", new PhpDebugBar.DebugBar.Tab({"icon":"leaf","title":"Views", "widget": new PhpDebugBar.Widgets.TemplatesWidget()}));
+phpdebugbar.addTab("route", new PhpDebugBar.DebugBar.Tab({"icon":"share","title":"Route", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.addIndicator("currentroute", new PhpDebugBar.DebugBar.Indicator({"icon":"share","tooltip":"Route"}), "right");
+phpdebugbar.addTab("queries", new PhpDebugBar.DebugBar.Tab({"icon":"inbox","title":"Queries", "widget": new PhpDebugBar.Widgets.SQLQueriesWidget()}));
+phpdebugbar.addTab("emails", new PhpDebugBar.DebugBar.Tab({"icon":"inbox","title":"Mails", "widget": new PhpDebugBar.Widgets.MailsWidget()}));
+phpdebugbar.addTab("request", new PhpDebugBar.DebugBar.Tab({"icon":"tags","title":"Request", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.setDataMap({
+"messages": ["messages.messages", []],
+"messages:badge": ["messages.count", null],
+"time": ["time.duration_str", '0ms'],
+"timeline": ["time", {}],
+"memory": ["memory.peak_usage_str", '0B'],
+"exceptions": ["exceptions.exceptions", []],
+"exceptions:badge": ["exceptions.count", null],
+"views": ["views", []],
+"views:badge": ["views.nb_templates", 0],
+"route": ["route", {}],
+"currentroute": ["route.uri", ],
+"queries": ["queries", []],
+"queries:badge": ["queries.nb_statements", 0],
+"emails": ["swiftmailer_mails.mails", []],
+"emails:badge": ["swiftmailer_mails.count", null],
+"request": ["request", {}]
+});
+phpdebugbar.restoreState();
+phpdebugbar.ajaxHandler = new PhpDebugBar.AjaxHandler(phpdebugbar);
+if (jQuery) phpdebugbar.ajaxHandler.bindToJquery(jQuery);
+phpdebugbar.setOpenHandler(new PhpDebugBar.OpenHandler({"url":"http:\/\/a.test.com\/_debugbar\/open"}));
+phpdebugbar.addDataSet({"__meta":{"id":"099422f019fa679c3606c269615d946d","datetime":"2014-11-12 18:38:22","utime":1415788702.7374,"method":"GET","uri":"\/sso\/logout?tikect=e1d590b7811c14641a88af00ff4e5a48&sid=e2117672ed8332a5b64ec3a7bea13d432c5aa44d","ip":"127.0.0.1"},"php":{"version":"5.5.18"},"messages":{"count":3,"messages":[{"message":"[18:38:22] LOG.info: session info 11111111eff48e37bdbdddd79a3312bccd162d758e842f79- -- e2117672ed8332a5b64ec3a7bea13d432c5aa44d","is_string":false,"label":"info","time":1415788702.7276,"collector":"log"},{"message":"[18:38:22] LOG.info: tikect -- : e1d590b7811c14641a88af00ff4e5a48","is_string":false,"label":"info","time":1415788702.7285,"collector":"log"},{"message":"[18:38:22] LOG.info: ptlogout -- : e1d590b7811c14641a88af00ff4e5a48","is_string":false,"label":"info","time":1415788702.7288,"collector":"log"}]},"time":{"start":1415788702.638,"end":1415788702.7375,"duration":0.099500894546509,"duration_str":"99.5ms","measures":[{"label":"Booting","start":1415788702.6384,"relative_start":0.00038003921508789,"end":1415788702.7234,"relative_end":1415788702.7234,"duration":0.085061073303223,"duration_str":"85.06ms","params":[],"collector":null},{"label":"Application","start":1415788702.7241,"relative_start":0.086137056350708,"end":1415788702.7242,"relative_end":1415788702.7242,"duration":3.2901763916016e-5,"duration_str":"33\u03bcs","params":[],"collector":null},{"label":"After application","start":1415788702.7242,"relative_start":0.086194038391113,"end":1415788702.7375,"relative_end":7.1525573730469e-6,"duration":0.013314008712769,"duration_str":"13.31ms","params":[],"collector":null}]},"memory":{"peak_usage":9961472,"peak_usage_str":"9.5MB"},"exceptions":{"count":0,"exceptions":[]},"views":{"nb_templates":0,"templates":[]},"route":{"host":"-","uri":"GET sso\/logout","name":"-","action":"Closure","before":"-","after":"-"},"queries":{"nb_statements":0,"nb_failed_statements":0,"accumulated_duration":0,"accumulated_duration_str":"0\u03bcs","statements":[]},"swiftmailer_mails":{"count":0,"mails":[]},"request":{"format":"html","content_type":"text\/html; charset=UTF-8","status_text":"OK","status_code":"integer 200","request_query":"array(2) [\n    'tikect' => string (32) \"e1d590b7811c14641a88af00ff4e5a48\"\n    'sid' => string (40) \"e2117672ed8332a5b64ec3a7bea13d432c5aa44d\"\n]","request_request":"array()","request_headers":"array(3) [\n    'content-type' => array(1) [\n        string (0) \"\"\n    ]\n    'content-length' => array(1) [\n        string (0) \"\"\n    ]\n    'host' => array(1) [\n        string (10) \"a.test.com\"\n    ]\n]","request_server":"array(27) [\n    'USER' => string (5) \"weisd\"\n    'HOME' => string (12) \"\/Users\/weisd\"\n    'FCGI_ROLE' => string (9) \"RESPONDER\"\n    'SCRIPT_FILENAME' => string (63) \"\/Users\/weisd\/gocode\/src\/github.com\/weisd\/test1\/public\/index.php\"\n    'QUERY_STRING' => string (84) \"tikect=e1d590b7811c14641a88af00ff4e5a48&amp;sid=e2117672ed8332a5b64ec3a7bea13d432c5aa44d\"\n    'REQUEST_METHOD' => string (3) \"GET\"\n    'CONTENT_TYPE' => string (0) \"\"\n    'CONTENT_LENGTH' => string (0) \"\"\n    'SCRIPT_NAME' => string (21) \"\/index.php\/sso\/logout\"\n    'REQUEST_URI' => string (96) \"\/sso\/logout?tikect=e1d590b7811c14641a88af00ff4e5a48&amp;sid=e2117672ed8332a5b64ec3a7bea13d432c5aa44d\"\n    'DOCUMENT_URI' => string (21) \"\/index.php\/sso\/logout\"\n    'DOCUMENT_ROOT' => string (53) \"\/Users\/weisd\/gocode\/src\/github.com\/weisd\/test1\/public\"\n    'SERVER_PROTOCOL' => string (8) \"HTTP\/1.0\"\n    'GATEWAY_INTERFACE' => string (7) \"CGI\/1.1\"\n    'SERVER_SOFTWARE' => string (11) \"nginx\/1.4.2\"\n    'REMOTE_ADDR' => string (9) \"127.0.0.1\"\n    'REMOTE_PORT' => string (5) \"50406\"\n    'SERVER_ADDR' => string (9) \"127.0.0.1\"\n    'SERVER_PORT' => string (2) \"80\"\n    'SERVER_NAME' => string (10) \"a.test.com\"\n    'REDIRECT_STATUS' => string (3) \"200\"\n    'HTTP_HOST' => string (10) \"a.test.com\"\n    'ORIG_SCRIPT_FILENAME' => string (74) \"\/Users\/weisd\/gocode\/src\/github.com\/weisd\/test1\/public\/index.php\/sso\/logout\"\n    'PATH_TRANSLATED' => string (53) \"\/Users\/weisd\/gocode\/src\/github.com\/weisd\/test1\/public\"\n    'PHP_SELF' => string (21) \"\/index.php\/sso\/logout\"\n    'REQUEST_TIME_FLOAT' => float 1415788702.638\n    'REQUEST_TIME' => integer 1415788702\n]","request_cookies":"array()","response_headers":"array(5) [\n    'cache-control' => array(1) [\n        string (24) \"private, must-revalidate\"\n    ]\n    'date' => array(1) [\n        string (29) \"Wed, 12 Nov 2014 10:38:22 GMT\"\n    ]\n    'content-type' => array(1) [\n        string (24) \"text\/html; charset=UTF-8\"\n    ]\n    'pragma' => array(1) [\n        string (8) \"no-cache\"\n    ]\n    'expires' => array(1) [\n        integer -1\n    ]\n]","path_info":"\/sso\/logout","session_attributes":"array(1) [\n    'PHPDEBUGBAR_STACK_DATA' => array()\n]"}}, "099422f019fa679c3606c269615d946d");
+
+</script>
+ [] []
+[2014-11-12 18:38:22] local.INFO: 自己退出 ！！ [] []
+[2014-11-12 18:38:23] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:38:25] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:41:55] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:42:02] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:42:08] local.INFO: send session id : 7d5a7207fd94e6d45afb14f9643262b911673628 [] []
+[2014-11-12 18:42:08] local.INFO: tikect info : {"sid":"7d5a7207fd94e6d45afb14f9643262b911673628","appid":2} [] []
+[2014-11-12 18:42:08] local.INFO: sync get session id : 7d5a7207fd94e6d45afb14f9643262b911673628 [] []
+[2014-11-12 18:42:08] local.INFO: ---- ---[] [] []
+[2014-11-12 18:42:08] local.INFO: ---- ---{"2":{"ptlogout":"2ce505109064b111399a45d59be806f1","sid":"1d6bb4c5838a99cba799b622e624249506208849"}} [] []
+[2014-11-12 18:42:08] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"fae2f41fd4ba3a242cb79f0a850d0f48","ptlogout":"2ce505109064b111399a45d59be806f1"} [] []
+[2014-11-12 18:42:13] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:42:13] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:42:13] local.INFO: tikect info : {"sid":"7d5a7207fd94e6d45afb14f9643262b911673628","appid":1} [] []
+[2014-11-12 18:42:13] local.INFO: sync get session id : 7d5a7207fd94e6d45afb14f9643262b911673628 [] []
+[2014-11-12 18:42:13] local.INFO: ---- ---{"2":{"ptlogout":"2ce505109064b111399a45d59be806f1","sid":"1d6bb4c5838a99cba799b622e624249506208849"}} [] []
+[2014-11-12 18:42:13] local.INFO: ---- ---{"2":{"ptlogout":"2ce505109064b111399a45d59be806f1","sid":"1d6bb4c5838a99cba799b622e624249506208849"},"1":{"ptlogout":"141c50f32239f89b5263f2c3be0604c2","sid":"e2117672ed8332a5b64ec3a7bea13d432c5aa44d"}} [] []
+[2014-11-12 18:42:13] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"e13979d2c6b4ab1ef81ef41ae529fead","ptlogout":"141c50f32239f89b5263f2c3be0604c2"} [] []
+[2014-11-12 18:42:18] local.INFO: get params : {"appid":"1","ptoken":"e13979d2c6b4ab1ef81ef41ae529fead"} [] []
+[2014-11-12 18:42:18] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 18:42:18] local.INFO: ptlogin{"2":{"ptlogout":"2ce505109064b111399a45d59be806f1","sid":"1d6bb4c5838a99cba799b622e624249506208849"},"1":{"ptlogout":"141c50f32239f89b5263f2c3be0604c2","sid":"e2117672ed8332a5b64ec3a7bea13d432c5aa44d"}} [] []
+[2014-11-12 18:42:18] local.INFO: out url : 2 : http://b.test.com/sso/logout?tikect=2ce505109064b111399a45d59be806f1&sid=1d6bb4c5838a99cba799b622e624249506208849 [] []
+[2014-11-12 18:42:19] local.ERROR: exception 'ErrorException' with message 'file_get_contents(http://b.test.com/sso/logout?tikect=2ce505109064b111399a45d59be806f1&amp;sid=1d6bb4c5838a99cba799b622e624249506208849): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+' in /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php:189
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleError(2, 'file_get_conten...', '/Users/weisd/go...', 189, Array)
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php(189): file_get_contents('http://b.test.c...')
+#2 [internal function]: SSOController->logout()
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(93): Illuminate\Routing\Controller->callAction('logout', Array)
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(62): Illuminate\Routing\ControllerDispatcher->call(Object(SSOController), Object(Illuminate\Routing\Route), 'logout')
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(934): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SSOController', 'logout')
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Route.php(104): call_user_func_array(Object(Closure), Array)
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1000): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#21 {main} [] []
+[2014-11-12 18:42:51] local.INFO: get params : {"appid":"1","ptoken":"e13979d2c6b4ab1ef81ef41ae529fead"} [] []
+[2014-11-12 18:42:51] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 18:42:51] local.INFO: ptlogin{"2":{"ptlogout":"2ce505109064b111399a45d59be806f1","sid":"1d6bb4c5838a99cba799b622e624249506208849"},"1":{"ptlogout":"141c50f32239f89b5263f2c3be0604c2","sid":"e2117672ed8332a5b64ec3a7bea13d432c5aa44d"}} [] []
+[2014-11-12 18:42:51] local.INFO: out url : 2 : http://b.test.com/sso/logout?tikect=2ce505109064b111399a45d59be806f1&sid=1d6bb4c5838a99cba799b622e624249506208849 [] []
+[2014-11-12 18:42:51] local.INFO: logout 2: {"code":200,"msg":"{\"tikect\":\"2ce505109064b111399a45d59be806f1\",\"sid\":\"1d6bb4c5838a99cba799b622e624249506208849\"}"} [] []
+[2014-11-12 18:42:51] local.INFO: 自己退出 ！！ [] []
+[2014-11-12 18:42:51] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:42:55] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:43:00] local.INFO: send session id : 96110ec36c2da9167314079beef1d7d5e10f7c7c [] []
+[2014-11-12 18:43:01] local.INFO: tikect info : {"sid":"96110ec36c2da9167314079beef1d7d5e10f7c7c","appid":2} [] []
+[2014-11-12 18:43:01] local.INFO: sync get session id : 96110ec36c2da9167314079beef1d7d5e10f7c7c [] []
+[2014-11-12 18:43:01] local.INFO: ---- ---[] [] []
+[2014-11-12 18:43:01] local.INFO: ---- ---{"2":{"ptlogout":"0fec3841040590995c333d9f8c0c3f8d","sid":"1d6bb4c5838a99cba799b622e624249506208849"}} [] []
+[2014-11-12 18:43:01] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"744c9bb2bda5fc1e5a587fb3b1103893","ptlogout":"0fec3841040590995c333d9f8c0c3f8d"} [] []
+[2014-11-12 18:43:05] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:43:05] local.INFO: 已登陆: 1 [] []
+[2014-11-12 18:43:05] local.INFO: tikect info : {"sid":"96110ec36c2da9167314079beef1d7d5e10f7c7c","appid":1} [] []
+[2014-11-12 18:43:05] local.INFO: sync get session id : 96110ec36c2da9167314079beef1d7d5e10f7c7c [] []
+[2014-11-12 18:43:05] local.INFO: ---- ---{"2":{"ptlogout":"0fec3841040590995c333d9f8c0c3f8d","sid":"1d6bb4c5838a99cba799b622e624249506208849"}} [] []
+[2014-11-12 18:43:05] local.INFO: ---- ---{"2":{"ptlogout":"0fec3841040590995c333d9f8c0c3f8d","sid":"1d6bb4c5838a99cba799b622e624249506208849"},"1":{"ptlogout":"703d470e59cb33864e5fc58b8d723f3c","sid":"d8a6a7c9c844359189dfd392ec5a9b1d3efd7233"}} [] []
+[2014-11-12 18:43:05] local.INFO: retourn : {"code":200,"msg":"","uid":1,"ptoken":"88dfa83449d163e533c7935bf9e283ae","ptlogout":"703d470e59cb33864e5fc58b8d723f3c"} [] []
+[2014-11-12 18:43:09] local.INFO: get params : {"appid":"1","ptoken":"88dfa83449d163e533c7935bf9e283ae"} [] []
+[2014-11-12 18:43:09] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-12 18:43:09] local.INFO: ptlogin{"2":{"ptlogout":"0fec3841040590995c333d9f8c0c3f8d","sid":"1d6bb4c5838a99cba799b622e624249506208849"},"1":{"ptlogout":"703d470e59cb33864e5fc58b8d723f3c","sid":"d8a6a7c9c844359189dfd392ec5a9b1d3efd7233"}} [] []
+[2014-11-12 18:43:09] local.INFO: out url : 2 : http://b.test.com/sso/logout?tikect=0fec3841040590995c333d9f8c0c3f8d&sid=1d6bb4c5838a99cba799b622e624249506208849 [] []
+[2014-11-12 18:43:09] local.INFO: logout 2: {"code":200,"msg":"{\"tikect\":\"0fec3841040590995c333d9f8c0c3f8d\",\"sid\":\"1d6bb4c5838a99cba799b622e624249506208849\"}"} [] []
+[2014-11-12 18:43:09] local.INFO: 自己退出 ！！ [] []
+[2014-11-12 18:43:10] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-12 18:43:12] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 09:48:49] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 09:48:53] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 09:49:13] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 09:49:18] local.INFO: send session id : 159bfc8af62425ab7367529a7d000ec48413050e [] []
+[2014-11-13 09:49:20] local.INFO: tikect info : {"sid":"159bfc8af62425ab7367529a7d000ec48413050e","appid":1} [] []
+[2014-11-13 09:49:20] local.INFO: sync get session id : 159bfc8af62425ab7367529a7d000ec48413050e [] []
+[2014-11-13 09:49:30] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 09:49:30] local.INFO: 已登陆: 1 [] []
+[2014-11-13 09:49:30] local.INFO: tikect info : {"sid":"159bfc8af62425ab7367529a7d000ec48413050e","appid":2} [] []
+[2014-11-13 09:49:30] local.INFO: sync get session id : 159bfc8af62425ab7367529a7d000ec48413050e [] []
+[2014-11-13 09:49:38] local.INFO: get params : {"appid":"2","ptoken":"ec0f16ab526554fba93becf8a5c9defd"} [] []
+[2014-11-13 09:49:38] local.INFO: clients : {"1":{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"},"2":{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"}} [] []
+[2014-11-13 09:49:38] local.INFO: ptlogin{"1":{"ptlogout":"0a30e00287ccb5b0dc07d140f8acd8f8","ptoken":"0b614b3d27f3c3971aafad50301d37c5","sid":"7bfb9385b12474de4a28db3e82cc4efc94c772d5"},"2":{"ptlogout":"3d9fd97e6b27156034bdcc638e1d9255","ptoken":"ec0f16ab526554fba93becf8a5c9defd","sid":"c8113300d2609eefcd6a182f26c914c3d10c6037"}} [] []
+[2014-11-13 09:49:38] local.INFO: out url : 1 : http://a.test.com/sso/logout?tikect=0a30e00287ccb5b0dc07d140f8acd8f8&sid=7bfb9385b12474de4a28db3e82cc4efc94c772d5 [] []
+[2014-11-13 09:49:38] local.INFO: logout 1: <link rel="stylesheet" type="text/css" href="http://a.test.com/_debugbar/assets/stylesheets?1415591618">
+<script type="text/javascript" src="http://a.test.com/_debugbar/assets/javascript?1415591618"></script>
+<script type="text/javascript">jQuery.noConflict(true);</script>
+<script type="text/javascript">
+var phpdebugbar = new PhpDebugBar.DebugBar();
+phpdebugbar.addTab("messages", new PhpDebugBar.DebugBar.Tab({"icon":"list-alt","title":"Messages", "widget": new PhpDebugBar.Widgets.MessagesWidget()}));
+phpdebugbar.addIndicator("time", new PhpDebugBar.DebugBar.Indicator({"icon":"clock-o","tooltip":"Request Duration"}), "right");
+phpdebugbar.addTab("timeline", new PhpDebugBar.DebugBar.Tab({"icon":"tasks","title":"Timeline", "widget": new PhpDebugBar.Widgets.TimelineWidget()}));
+phpdebugbar.addIndicator("memory", new PhpDebugBar.DebugBar.Indicator({"icon":"cogs","tooltip":"Memory Usage"}), "right");
+phpdebugbar.addTab("exceptions", new PhpDebugBar.DebugBar.Tab({"icon":"bug","title":"Exceptions", "widget": new PhpDebugBar.Widgets.ExceptionsWidget()}));
+phpdebugbar.addTab("views", new PhpDebugBar.DebugBar.Tab({"icon":"leaf","title":"Views", "widget": new PhpDebugBar.Widgets.TemplatesWidget()}));
+phpdebugbar.addTab("route", new PhpDebugBar.DebugBar.Tab({"icon":"share","title":"Route", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.addIndicator("currentroute", new PhpDebugBar.DebugBar.Indicator({"icon":"share","tooltip":"Route"}), "right");
+phpdebugbar.addTab("queries", new PhpDebugBar.DebugBar.Tab({"icon":"inbox","title":"Queries", "widget": new PhpDebugBar.Widgets.SQLQueriesWidget()}));
+phpdebugbar.addTab("emails", new PhpDebugBar.DebugBar.Tab({"icon":"inbox","title":"Mails", "widget": new PhpDebugBar.Widgets.MailsWidget()}));
+phpdebugbar.addTab("request", new PhpDebugBar.DebugBar.Tab({"icon":"tags","title":"Request", "widget": new PhpDebugBar.Widgets.VariableListWidget()}));
+phpdebugbar.setDataMap({
+"messages": ["messages.messages", []],
+"messages:badge": ["messages.count", null],
+"time": ["time.duration_str", '0ms'],
+"timeline": ["time", {}],
+"memory": ["memory.peak_usage_str", '0B'],
+"exceptions": ["exceptions.exceptions", []],
+"exceptions:badge": ["exceptions.count", null],
+"views": ["views", []],
+"views:badge": ["views.nb_templates", 0],
+"route": ["route", {}],
+"currentroute": ["route.uri", ],
+"queries": ["queries", []],
+"queries:badge": ["queries.nb_statements", 0],
+"emails": ["swiftmailer_mails.mails", []],
+"emails:badge": ["swiftmailer_mails.count", null],
+"request": ["request", {}]
+});
+phpdebugbar.restoreState();
+phpdebugbar.ajaxHandler = new PhpDebugBar.AjaxHandler(phpdebugbar);
+if (jQuery) phpdebugbar.ajaxHandler.bindToJquery(jQuery);
+phpdebugbar.setOpenHandler(new PhpDebugBar.OpenHandler({"url":"http:\/\/a.test.com\/_debugbar\/open"}));
+phpdebugbar.addDataSet({"__meta":{"id":"e0633fd1b6c83a9ccc380aecb46a52e1","datetime":"2014-11-13 09:49:38","utime":1415843378.6291,"method":"GET","uri":"\/sso\/logout?tikect=0a30e00287ccb5b0dc07d140f8acd8f8&sid=7bfb9385b12474de4a28db3e82cc4efc94c772d5","ip":"127.0.0.1"},"php":{"version":"5.5.18"},"messages":{"count":2,"messages":[{"message":"[09:49:38] LOG.info: tikect -- : 0a30e00287ccb5b0dc07d140f8acd8f8","is_string":false,"label":"info","time":1415843378.6198,"collector":"log"},{"message":"[09:49:38] LOG.info: ptlogout -- : 0a30e00287ccb5b0dc07d140f8acd8f8","is_string":false,"label":"info","time":1415843378.6202,"collector":"log"}]},"time":{"start":1415843378.5261,"end":1415843378.6291,"duration":0.10299897193909,"duration_str":"103ms","measures":[{"label":"Booting","start":1415843378.5265,"relative_start":0.00037598609924316,"end":1415843378.6138,"relative_end":1415843378.6138,"duration":0.087242126464844,"duration_str":"87.24ms","params":[],"collector":null},{"label":"Application","start":1415843378.6151,"relative_start":0.088982105255127,"end":1415843378.6152,"relative_end":1415843378.6152,"duration":3.6954879760742e-5,"duration_str":"37\u03bcs","params":[],"collector":null},{"label":"After application","start":1415843378.6152,"relative_start":0.08905291557312,"end":1415843378.6291,"relative_end":7.1525573730469e-6,"duration":0.01395320892334,"duration_str":"13.95ms","params":[],"collector":null}]},"memory":{"peak_usage":10223616,"peak_usage_str":"9.75MB"},"exceptions":{"count":0,"exceptions":[]},"views":{"nb_templates":0,"templates":[]},"route":{"host":"-","uri":"GET sso\/logout","name":"-","action":"Closure","before":"-","after":"-"},"queries":{"nb_statements":0,"nb_failed_statements":0,"accumulated_duration":0,"accumulated_duration_str":"0\u03bcs","statements":[]},"swiftmailer_mails":{"count":0,"mails":[]},"request":{"format":"html","content_type":"text\/html; charset=UTF-8","status_text":"OK","status_code":"integer 200","request_query":"array(2) [\n    'tikect' => string (32) \"0a30e00287ccb5b0dc07d140f8acd8f8\"\n    'sid' => string (40) \"7bfb9385b12474de4a28db3e82cc4efc94c772d5\"\n]","request_request":"array()","request_headers":"array(3) [\n    'content-type' => array(1) [\n        string (0) \"\"\n    ]\n    'content-length' => array(1) [\n        string (0) \"\"\n    ]\n    'host' => array(1) [\n        string (10) \"a.test.com\"\n    ]\n]","request_server":"array(27) [\n    'USER' => string (5) \"weisd\"\n    'HOME' => string (12) \"\/Users\/weisd\"\n    'FCGI_ROLE' => string (9) \"RESPONDER\"\n    'SCRIPT_FILENAME' => string (63) \"\/Users\/weisd\/gocode\/src\/github.com\/weisd\/test1\/public\/index.php\"\n    'QUERY_STRING' => string (84) \"tikect=0a30e00287ccb5b0dc07d140f8acd8f8&amp;sid=7bfb9385b12474de4a28db3e82cc4efc94c772d5\"\n    'REQUEST_METHOD' => string (3) \"GET\"\n    'CONTENT_TYPE' => string (0) \"\"\n    'CONTENT_LENGTH' => string (0) \"\"\n    'SCRIPT_NAME' => string (21) \"\/index.php\/sso\/logout\"\n    'REQUEST_URI' => string (96) \"\/sso\/logout?tikect=0a30e00287ccb5b0dc07d140f8acd8f8&amp;sid=7bfb9385b12474de4a28db3e82cc4efc94c772d5\"\n    'DOCUMENT_URI' => string (21) \"\/index.php\/sso\/logout\"\n    'DOCUMENT_ROOT' => string (53) \"\/Users\/weisd\/gocode\/src\/github.com\/weisd\/test1\/public\"\n    'SERVER_PROTOCOL' => string (8) \"HTTP\/1.0\"\n    'GATEWAY_INTERFACE' => string (7) \"CGI\/1.1\"\n    'SERVER_SOFTWARE' => string (11) \"nginx\/1.4.2\"\n    'REMOTE_ADDR' => string (9) \"127.0.0.1\"\n    'REMOTE_PORT' => string (5) \"54988\"\n    'SERVER_ADDR' => string (9) \"127.0.0.1\"\n    'SERVER_PORT' => string (2) \"80\"\n    'SERVER_NAME' => string (10) \"a.test.com\"\n    'REDIRECT_STATUS' => string (3) \"200\"\n    'HTTP_HOST' => string (10) \"a.test.com\"\n    'ORIG_SCRIPT_FILENAME' => string (74) \"\/Users\/weisd\/gocode\/src\/github.com\/weisd\/test1\/public\/index.php\/sso\/logout\"\n    'PATH_TRANSLATED' => string (53) \"\/Users\/weisd\/gocode\/src\/github.com\/weisd\/test1\/public\"\n    'PHP_SELF' => string (21) \"\/index.php\/sso\/logout\"\n    'REQUEST_TIME_FLOAT' => float 1415843378.5261\n    'REQUEST_TIME' => integer 1415843378\n]","request_cookies":"array()","response_headers":"array(5) [\n    'cache-control' => array(1) [\n        string (24) \"private, must-revalidate\"\n    ]\n    'date' => array(1) [\n        string (29) \"Thu, 13 Nov 2014 01:49:38 GMT\"\n    ]\n    'content-type' => array(1) [\n        string (24) \"text\/html; charset=UTF-8\"\n    ]\n    'pragma' => array(1) [\n        string (8) \"no-cache\"\n    ]\n    'expires' => array(1) [\n        integer -1\n    ]\n]","path_info":"\/sso\/logout","session_attributes":"array(1) [\n    'PHPDEBUGBAR_STACK_DATA' => array()\n]"}}, "e0633fd1b6c83a9ccc380aecb46a52e1");
+
+</script>
+ [] []
+[2014-11-13 09:49:38] local.INFO: out url : 2 : http://b.test.com/sso/logout?tikect=3d9fd97e6b27156034bdcc638e1d9255&sid=c8113300d2609eefcd6a182f26c914c3d10c6037 [] []
+[2014-11-13 09:49:39] local.INFO: logout 2: {"code":200,"msg":"{\"tikect\":\"3d9fd97e6b27156034bdcc638e1d9255\",\"sid\":\"c8113300d2609eefcd6a182f26c914c3d10c6037\"}"} [] []
+[2014-11-13 09:49:39] local.INFO: login clieninfo :{"id":2,"url":"b.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 09:49:42] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 10:39:14] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 10:41:02] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 10:41:04] local.ERROR: exception 'Symfony\Component\HttpKernel\Exception\HttpException' in /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:875
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Foundation\Application->abort(401)
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php(14): Illuminate\Support\Facades\Facade::__callStatic('abort', Array)
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php(14): Illuminate\Support\Facades\App::abort(401)
+#3 [internal function]: SSOController->register()
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(93): Illuminate\Routing\Controller->callAction('register', Array)
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(62): Illuminate\Routing\ControllerDispatcher->call(Object(SSOController), Object(Illuminate\Routing\Route), 'register')
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(934): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SSOController', 'register')
+#8 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Route.php(104): call_user_func_array(Object(Closure), Array)
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1000): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#21 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#22 {main} [] []
+[2014-11-13 10:43:50] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 10:43:52] local.ERROR: exception 'InvalidArgumentException' with message 'View [register] not found.' in /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:139
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('register', Array)
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Environment.php(115): Illuminate\View\FileViewFinder->find('register')
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(211): Illuminate\View\Environment->make('register', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php(24): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php(24): Illuminate\Support\Facades\View::make('register', Array)
+#5 [internal function]: SSOController->register()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(231): call_user_func_array(Array, Array)
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(93): Illuminate\Routing\Controller->callAction('register', Array)
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(62): Illuminate\Routing\ControllerDispatcher->call(Object(SSOController), Object(Illuminate\Routing\Route), 'register')
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(934): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request), 'SSOController', 'register')
+#10 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Route.php(104): call_user_func_array(Object(Closure), Array)
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1000): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#20 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#21 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#22 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#23 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-11-13 10:46:55] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []
+[2014-11-13 13:43:30] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\Redirector::json()' in /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:208
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:43:43] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\Redirector::json()' in /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:208
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:44:00] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\Redirector::json()' in /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:208
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:44:28] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\Redirector::json()' in /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:208
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:44:42] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\Redirector::json()' in /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:208
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:45:41] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ','' in /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php:105
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:46:02] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ','' in /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php:105
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:46:55] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ','' in /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php:105
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:48:27] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Illuminate\Routing\Redirector::json()' in /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:208
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:48:57] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ','' in /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php:105
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:49:05] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ','' in /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php:105
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-13 13:49:38] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ','' in /Users/weisd/gocode/src/github.com/weisd/sso/app/controllers/SSOController.php:106
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-24 13:10:25] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'Route' (T_STRING)' in /Users/weisd/gocode/src/github.com/weisd/sso/app/routes.php:22
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-11-24 13:10:43] local.ERROR: exception 'ErrorException' with message 'Undefined variable: clienInfo' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:19
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71(19): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/Users/weisd/go...', 19, Array)
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/Users/weisd/go...')
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'Undefined variable: clienInfo (View: /Users/weisd/gocode/src/github.com/weisd/sso/app/views/sso/register.blade.php)' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:19
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(41): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException))
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-11-24 13:11:25] local.ERROR: exception 'ErrorException' with message 'Undefined variable: clienInfo' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:24
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71(24): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/Users/weisd/go...', 24, Array)
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/Users/weisd/go...')
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'Undefined variable: clienInfo (View: /Users/weisd/gocode/src/github.com/weisd/sso/app/views/sso/register.blade.php)' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:24
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(41): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException))
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-11-24 13:44:47] local.ERROR: exception 'ErrorException' with message 'Undefined variable: clienInfo' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:24
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71(24): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/Users/weisd/go...', 24, Array)
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/Users/weisd/go...')
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'Undefined variable: clienInfo (View: /Users/weisd/gocode/src/github.com/weisd/sso/app/views/sso/register.blade.php)' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:24
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(41): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException))
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-11-24 13:45:43] local.ERROR: exception 'ErrorException' with message 'Undefined variable: clienInfo' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:24
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71(24): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/Users/weisd/go...', 24, Array)
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/Users/weisd/go...')
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'Undefined variable: clienInfo (View: /Users/weisd/gocode/src/github.com/weisd/sso/app/views/sso/register.blade.php)' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:24
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(41): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException))
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-11-24 13:47:05] local.ERROR: exception 'ErrorException' with message 'Undefined variable: clienInfo' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:19
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71(19): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/Users/weisd/go...', 19, Array)
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/Users/weisd/go...')
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#20 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'ErrorException' with message 'Undefined variable: clienInfo (View: /Users/weisd/gocode/src/github.com/weisd/sso/app/views/sso/register.blade.php)' in /Users/weisd/gocode/src/github.com/weisd/sso/app/storage/views/49e1886e36c1f7851ff365a199dd0a71:19
+Stack trace:
+#0 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(41): Illuminate\View\Engines\CompilerEngine->handleViewException(Object(ErrorException))
+#1 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/weisd/go...', Array)
+#2 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/Users/weisd/go...', Array)
+#3 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#4 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/View/View.php(76): Illuminate\View\View->renderContents()
+#5 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(202): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1427): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1003): Illuminate\Routing\Router->prepareResponse(Object(Illuminate\Http\Request), Object(Illuminate\View\View))
+#9 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Routing/Router.php(968): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#10 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(738): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(708): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/barryvdh/laravel-debugbar/src/Middleware/Stack.php(34): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#13 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Http/FrameGuard.php(38): Barryvdh\Debugbar\Middleware\Stack->handle(Object(Illuminate\Http\Request), 1, true)
+#14 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Session/Middleware.php(72): Illuminate\Http\FrameGuard->handle(Object(Illuminate\Http\Request), 1, true)
+#15 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Queue.php(47): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#16 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Cookie/Guard.php(51): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#17 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#18 /Users/weisd/gocode/src/github.com/weisd/sso/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(606): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#19 /Users/weisd/gocode/src/github.com/weisd/sso/public/index.php(63): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-11-24 13:47:54] local.INFO: login clieninfo :{"id":1,"url":"a.test.com","login":"\/sso\/login","logout":"\/sso\/logout","callback":"\/sso\/callback"} [] []

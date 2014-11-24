@@ -1,7 +1,7 @@
 <?php
 
 return array(
-	'default' => 'redis',
+	'default' => 'mysql',
 
 	'connections' => array(
 
@@ -22,7 +22,7 @@ return array(
 		'cluster' => false,
 
 		'default' => array(
-			'host' => '10.6.9.6',
+			'host' => '127.0.0.1',
 			'port' => 6379,
 			'database' => 0,
 		),

@@ -1,0 +1,25 @@
+<?php echo Form::open(); ?>
+
+	<?php echo Form::label('username', '用户名'); ?>
+	<?php echo Form::text('username'); ?>
+	<?php echo $errors->first('username', '<strong>:message</strong>'); ?>
+	<br>
+	<?php echo Form::label('email', 'email'); ?>
+	<?php echo Form::text('email'); ?>
+	<?php echo $errors->first('email', '<strong>:message</strong>'); ?>
+<br>
+	<?php echo Form::label('password', '密码'); ?>
+	<?php echo Form::password('password'); ?>
+	<?php echo $errors->first('password', '<strong>:message</strong>'); ?>
+<br>
+	<?php echo Form::label('确认密码：'); ?>
+	<?php echo Form::password('password_confirmation'); ?>
+<br>
+	<?php echo Form::token(); ?>
+	<?php echo Form::hidden('appid', $clienInfo['id']); ?>
+
+	<?php echo Form::submit('注册'); ?>
+
+<?php echo Form::close(); ?>
+
+<?php echo HTML::link('/login?appid='.$clienInfo['id'], '登陆'); ?>
